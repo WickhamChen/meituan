@@ -1,0 +1,3189 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="http://s0.meituan.net/bs/fe-web-meituan/ac746f0/css/main.css"><!--iconfont-Meituan-->
+	<title>北京美团网-北京美食_酒店_旅游_团购_电影_吃喝玩乐</title>	
+  </head>
+  <body>
+<!--header start-->
+	<div id="header">
+		<div class="h-dt">
+			<div class="h-top">
+				<div class="h-t-position">
+					<div class="user-city">
+						<span>北京</span>
+						<a href="http://www.meituan.com/changecity/" class="city-switch">切换城市</a>
+						<span class="user-guess_city">[
+							<a href="#">大厂回族自治区</a>
+							<a href="#">廊坊</a>
+							<a href="#">三河</a>
+						]</span>
+					</div>
+				</div>
+				<nav class="h-t-nav">
+					<ul class="nav-ul">
+						<li class="nav-ul-li nav-my">
+							<a class="my-fitst" href="#">我的美团</a>
+							<ul class="my-next_nav">
+								<li><a href="#">我的订单</a></li>
+								<li><a href="#">我的评价</a></li>
+								<li><a href="#">我的收藏</a></li>
+								<li><a href="#">抵用券</a></li>
+								<li><a href="#">账户设置</a></li>
+							</ul>
+						</li>
+						<li class="nav-ul-li"><a href="#">手机APP</a></li>
+						<li class="nav-ul-li nav-shop">
+							<a class="shop-three" href="#">商城中心</a>
+							<ul class="shop-next_nav">
+								<li><a href="#">登陆商家中心</a></li>
+								<li><a href="#">我想合作</a></li>
+								<li><a href="#">手机免费开店</a></li>
+								<li><a href="#">餐饮代理招募</a></li>
+								<li><a href="#">商家申请开票</a></li>
+							</ul>
+						</li>
+						<li class="nav-ul-li nav-site">
+						<a class="shop-four"href="#">网站导航</a>
+							<div class="nav-site-div">
+								<dl class="site-dl site-jiulv">
+									<dt>酒店旅游</dt>
+									<dd><a href="#">国际机票</a></dd>
+									<dd><a href="#">火车票</a></dd>
+									<dd><a href="#">榛果民宿</a></dd>
+									<dd><a href="#">经济型酒店</a></dd>
+									<dd><a href="#">主题酒店</a></dd>
+									<dd><a href="#">商务酒店</a></dd>
+									<dd><a href="#">公寓</a></dd>
+									<dd><a href="#">豪华酒店</a></dd>
+									<dd><a href="#">客栈</a></dd>
+									<dd><a href="#">青年旅社</a></dd>
+									<dd><a href="#">度假酒店</a></dd>
+									<dd><a href="#">别墅</a></dd>
+									<dd><a href="#">农家院</a></dd>
+								</dl>
+								<dl class="site-dl site-meishi">
+									<dt>吃美食</dt>
+									<dd><a href="#">烤鱼</a></dd>
+									<dd><a href="#">特色小吃</a></dd>
+									<dd><a href="#">烧烤</a></dd>
+									<dd><a href="#">自助餐</a></dd>
+									<dd><a href="#">火锅</a></dd>
+									<dd><a href="#">代金券</a></dd>
+								</dl>
+								<dl class="site-dl site-film">
+									<dt>看电影</dt>
+									<dd><a href="#">热映电影</a></dd>
+									<dd><a href="#">热门影院</a></dd>
+									<dd><a href="#">热映电影口碑榜</a></dd>
+									<dd><a href="#">最受期待电影</a></dd>
+									<dd><a href="#">国内票房榜</a></dd>
+									<dd><a href="#">北美票房榜</a></dd>
+									<dd><a href="#">电影排行榜</a></dd>
+								</dl>
+								<dl class="site-dl site-app">
+									<dt>手机应用</dt>
+									<dd><a><img src="images/meituan.png" width="60" height="60" alt="美团app" title="美团app"/></a></dd>
+									<dd><a><img src="images/waimai.png" width="60" height="60" alt="外卖app" title="外卖app"/></a></dd>
+									<dd><a><img src="images/zhenguo.png" width="60" height="60" alt="榛果app" title="榛果app"/></a></dd>
+									<dd><a><img src="images/dianping.png" width="60" height="60" alt="点评app" title="点评app"/></a></dd>
+									<dd><a><img src="images/maoyan.png" width="60" height="60" alt="猫眼app" title="猫眼app"/></a></dd>
+								</dl>
+							</div>
+						</li>
+					</ul>
+				</nav>
+			</div>
+		</div>
+		<div class="header-module">
+			<div class="h-module-logo">
+				<div class="h-m-logo">
+					<a href="#"><img src="images/logo.png" alt="美团"></a>
+				</div>
+			</div>
+			<div class="h-module-search">
+				<div class="h-m-s-block">
+					<input class="search-text" type="text" placeholder="搜索商家或地点">
+					<button class="search-button"><span>搜索</span></button>
+				</div>
+				<div class="h-m-suggest">
+					<div class="h-m-history">
+						<h6>最近搜索</h6>
+						<span class="h-m-clean">删除搜索历史</span>
+						<ul>
+							<li><a href="#" target="_blank">123</a></li>
+							<li><a href="#" target="_blank">456</a></li>
+						</ul>
+					</div>
+					<h6>热门搜索</h6>
+					<a>故宫博物院</a><a>八达岭长城</a><a>北京欢乐谷</a><a>龙庆峡风景区</a><a>陶然亭冰雪嘉年华</a>
+				</div><!--下列div-->
+				<div class="h-m-hotword"><a>故宫博物院</a><a>八达岭长城</a><a>北京欢乐谷</a><a>龙庆峡风景区</a><a>陶然亭冰雪嘉年华</a><a>圆明园</a><a>北京野生动物园</a></div><!--热词搜索-->
+			</div>
+			<div class="h-module-commitment">
+				<a href="#"><img src="images/commitment.png"/></a>
+			</div>
+		</div>
+	</div>
+<!--end header-->
+<!--main start-->
+	<div id="main">
+		<div class="page-index">
+			<div class="index-container">
+				<div class="banner-container">
+					<div class="left-banner">
+						<div class="category-nav">
+							<div class="category-titie"><span>全部分类</span></div><!--标题-->
+							<div class="category-content"><!--菜单start-->
+								<ul>
+									<li class="nav-li nav-food">
+										<i class="home-category-iconfont hc-icon-food"></i><span><a href="#" target="_blank">美食</a></span><i class="nav-right-arrow"></i>
+									</li>
+									<li class="nav-li nav-waimai">
+										<i class="home-category-iconfont hc-icon-waimai"></i><span><a href="#" target="_blank">外卖</a></span><i class="nav-right-arrow"></i>
+									</li>
+									<li class="nav-li nav-hotel">
+										<i class="home-category-iconfont hc-icon-hotel"></i><span><a href="#" target="_blank">酒店</a></span><i class="nav-right-arrow"></i>
+									</li>
+									<li class="nav-li nav-zhenguo">
+										<i class="home-category-iconfont hc-icon-zhenguo"></i><span><a href="#" target="_blank">榛果民宿</a></span><i class="nav-right-arrow"></i>
+									</li>
+									<li class="nav-li nav-maoyan">
+										<i class="home-category-iconfont hc-icon-maoyan" style="margin-left:-3px;"></i><span><a href="#" target="_blank">猫眼电影</a></span><i class="nav-right-arrow"></i>
+									</li>
+									<li class="nav-li nav-plane">
+										<i class="home-category-iconfont hc-icon-plane"></i><span><a href="#" target="_blank">机票</a> / <a href="#" target="_blank">火车票</a></span><i class="nav-right-arrow"></i>
+									</li>
+									<li class="nav-li nav-ktv">
+										<i class="home-category-iconfont hc-icon-ktv"></i><span><a href="#" target="_blank">休闲娱乐</a> / <a href="#" target="_blank">KTV</a></span><i class="nav-right-arrow"></i>
+									</li>
+									<li class="nav-li  nav-life">
+										<i class="home-category-iconfont hc-icon-life"></i><span><a href="#" target="_blank">生活服务</a></span><i class="nav-right-arrow"></i>
+									</li>
+									<li class="nav-li nav-beauty">
+										<i class="home-category-iconfont hc-icon-beauty" style="margin-left:-3px;"></i><span><a href="#" target="_blank">丽人</a> / <a href="#" target="_blank">美发</a> / <a href="#" target="_blank">医学美容</a></span><i class="nav-right-arrow"></i>
+									</li>
+									<li class="nav-li nav-married">
+										<i class="home-category-iconfont hc-icon-married"></i><span><a href="#" target="_blank">结婚</a> / <a href="#" target="_blank">婚纱摄影</a> / <a href="#" target="_blank">婚宴</a></span><i class="nav-right-arrow"></i>
+									</li>
+									<li class="nav-li nav-child">
+										<i class="home-category-iconfont hc-icon-child"></i><span><a href="#" target="_blank">亲子</a> / <a href="#" target="_blank">儿童乐园</a> / <a href="#" target="_blank">幼教</a></span><i class="nav-right-arrow"></i>
+									</li>
+									<li class="nav-li nav-sport">
+										<i class="home-category-iconfont hc-icon-sport"></i><span><a href="#" target="_blank">运动健身</a> / <a href="#" target="_blank">健身中心</a></span><i class="nav-right-arrow"></i>
+									</li>
+									<li class="nav-li nav-decorate">
+										<i class="home-category-iconfont hc-icon-decorate"></i><span><a href="#" target="_blank">家装</a> / <a href="#" target="_blank">建材</a> / <a href="#" target="_blank">家居</a></span><i class="nav-right-arrow"></i>
+									</li>
+									<li class="nav-li nav-education">
+										<i class="home-category-iconfont hc-icon-education"></i><span><a href="#" target="_blank">学习培训 </a> / <a href="#" target="_blank">音乐培训</a></span><i class="nav-right-arrow"></i>
+									</li>
+									<li class="nav-li nav-medical">
+										<i class="home-category-iconfont hc-icon-medical"></i><span><a href="#" target="_blank">医疗健康</a> / <a href="#" target="_blank">宠物</a> / <a href="#" target="_blank">爱车</a></span><i class="nav-right-arrow"></i>
+									</li>
+									<li class="nav-li nav-bar">
+										<i class="home-category-iconfont hc-icon-bar" style="margin-left:-2px;"></i><span><a href="#" target="_blank">酒吧</a> / <a href="#" target="_blank">密室逃脱</a></span><i class="nav-right-arrow"></i>
+									</li>
+								</ul>
+							</div><!--end菜单-->
+							<div class="category-detail-warpper"><!--   二级菜单star warpper-->
+								<!--detail -area 美食-->
+								<div class="category-detail food-detail">
+									<div class="detail-area">
+										<div class="detail-title">
+											<h2>美食</h2>
+											<a href="#" target="_blank">更多<i class="detail-title-arrow"></i></a>
+										</div>
+										<div class="detail--content">
+											<a href="#" target="_blank" class="content-text">代金券</a><a href="#" target="_blank" class="content-text">甜点饮品</a>
+											<a href="#" target="_blank" class="content-text">火锅</a><a href="#" target="_blank" class="content-text">自助餐</a>
+											<a href="#" target="_blank" class="content-text">小吃快餐</a><a href="#" target="_blank" class="content-text">日韩料理</a>
+											<a href="#" target="_blank" class="content-text">西餐</a><a href="#" target="_blank" class="content-text">聚餐宴请</a>
+											<a href="#" target="_blank" class="content-text">烧烤烤肉</a><a href="#" target="_blank" class="content-text">东北菜</a>
+											<a href="#" target="_blank" class="content-text">川湘菜</a><a href="#" target="_blank" class="content-text">江浙菜</a>
+											<a href="#" target="_blank" class="content-text">香锅烤鱼</a><a href="#" target="_blank" class="content-text">粤港菜</a>
+											<a href="#" target="_blank" class="content-text">中式烧烤/烤串</a><a href="#" target="_blank" class="content-text">西北菜</a>
+											<a href="#" target="_blank" class="content-text">咖啡酒吧茶馆</a><a href="#" target="_blank" class="content-text">云贵菜</a>
+											<a href="#" target="_blank" class="content-text">东南亚菜</a><a href="#" target="_blank" class="content-text">海鲜</a>
+											<a href="#" target="_blank" class="content-text">素食</a><a href="#" target="_blank" class="content-text">台湾/客家菜</a>
+											<a href="#" target="_blank" class="content-text">创意菜</a><a href="#" target="_blank" class="content-text">汤/粥/炖菜</a>
+											<a href="#" target="_blank" class="content-text">蒙餐</a><a href="#" target="_blank" class="content-text">新疆菜</a>
+											<a href="#" target="_blank" class="content-text">其他美食</a><a href="#" target="_blank" class="content-text">京菜鲁菜</a>
+											
+										</div>
+									</div>
+								</div>
+								<!--detail -area 外卖-->
+								<div class="category-detail waimai-detail">
+									<div class="detail-area">
+										<div class="detail-title">
+											<h2>外卖</h2>
+											<a href="#" target="_blank">更多<i class="detail-title-arrow"></i></a>
+										</div>
+										<div class="detail--content">
+											<a href="#" target="_blank" class="content-text">美团外卖</a>
+										</div>
+									</div>
+								</div>
+								<!--detail -area 酒店-->
+								<div class="category-detail hotel-detail">
+									<div class="detail-area">
+										<div class="detail-title">
+											<h2>酒店星级</h2>
+											<a href="#" target="_blank">更多<i class="detail-title-arrow"></i></a>
+										</div>
+										<div class="detail--content">
+											<a href="#" target="_blank" class="content-text">经济型</a><a href="#" target="_blank" class="content-text">舒适/三星</a>
+											<a href="#" target="_blank" class="content-text">高档/四星</a><a href="#" target="_blank" class="content-text">豪华/五星</a>
+											
+										</div>
+									</div>
+								</div>
+								<!--detail -area 榛果民宿-->
+								<div class="category-detail zhenguo-detail">
+									<div class="detail-area">
+										<div class="detail-title">
+											<h2>热门城市</h2>
+											<a href="#" target="_blank">更多<i class="detail-title-arrow"></i></a>
+										</div>
+										<div class="detail--content">
+											<a href="#" target="_blank" class="content-text">上海</a><a href="#" target="_blank" class="content-text">成都</a>
+											<a href="#" target="_blank" class="content-text">北京</a><a href="#" target="_blank" class="content-text">重庆</a>
+											<a href="#" target="_blank" class="content-text">南京</a><a href="#" target="_blank" class="content-text">杭州</a>
+											<a href="#" target="_blank" class="content-text">广州</a><a href="#" target="_blank" class="content-text">西安</a>
+											<a href="#" target="_blank" class="content-text">大连</a>
+										</div>
+									</div>
+								</div>
+								<!--detail -area 猫眼电影-->
+								<div class="category-detail maoyan-detail">
+									<div class="detail-area">
+										<div class="detail-title">
+											<h2>热门影院</h2>
+											<a href="#" target="_blank">更多<i class="detail-title-arrow"></i></a>
+										</div>
+										<div class="detail--content">
+											<a href="#" target="_blank" class="content-text">保利国际影城</a><a href="#" target="_blank" class="content-text">耀莱成龙国际影城</a>
+											<a href="#" target="_blank" class="content-text">大地影院</a><a href="#" target="_blank" class="content-text">万达影城</a>
+											<a href="#" target="_blank" class="content-text">博纳国际影城</a><a href="#" target="_blank" class="content-text">CGV影城</a>
+											<a href="#" target="_blank" class="content-text">橙天嘉禾影城</a><a href="#" target="_blank" class="content-text">金逸影城</a>
+											<a href="#" target="_blank" class="content-text">星美国际影城</a><a href="#" target="_blank" class="content-text">中影国际影城</a>
+										</div>
+									</div>
+								</div>
+								<!--detail -area 机票/火车票-->
+								<div class="category-detail plane-detail">
+									<div class="detail-area">
+										<div class="detail-title">
+											<h2>机票</h2>
+											<a href="#" target="_blank">更多<i class="detail-title-arrow"></i></a>
+										</div>
+										<div class="detail--content">
+											<a href="#" target="_blank" class="content-text">国际/港澳台机票</a>
+										</div>
+									</div>
+									<div class="detail-area">
+										<div class="detail-title">
+											<h2>火车票</h2>
+											<a href="#" target="_blank">更多<i class="detail-title-arrow"></i></a>
+										</div>
+										<div class="detail--content">
+											<a href="#" target="_blank" class="content-text">火车票</a>
+										</div>
+									</div>
+								</div>
+								<!--detail -area 休闲娱乐 / KTV-->
+								<div class="category-detail ktv-detail">
+									<div class="detail-area">
+										<div class="detail-title">
+											<h2>休闲娱乐</h2>
+											<a href="#" target="_blank">更多<i class="detail-title-arrow"></i></a>
+										</div>
+										<div class="detail--content">
+											<a href="#" target="_blank" class="content-text">足疗按摩</a><a href="#" target="_blank" class="content-text">洗浴/汗蒸</a>
+											<a href="#" target="_blank" class="content-text">酒吧</a><a href="#" target="_blank" class="content-text">密室逃脱</a>
+											<a href="#" target="_blank" class="content-text">轰趴馆</a><a href="#" target="_blank" class="content-text">茶馆</a>
+											<a href="#" target="_blank" class="content-text">私人影院</a><a href="#" target="_blank" class="content-text">DIY手工坊</a>
+											<a href="#" target="_blank" class="content-text">采摘/农家乐</a><a href="#" target="_blank" class="content-text">网吧网咖</a>
+											<a href="#" target="_blank" class="content-text">游乐游艺</a><a href="#" target="_blank" class="content-text">VR桌面游戏</a>
+											<a href="#" target="_blank" class="content-text">真人CS</a><a href="#" target="_blank" class="content-text">棋牌室</a>
+											<a href="#" target="_blank" class="content-text">其他玩乐</a>
+										</div>
+									</div>
+									<div class="detail-area">
+										<div class="detail-title">
+											<h2>KTV</h2>
+											<a href="#" target="_blank">更多<i class="detail-title-arrow"></i></a>
+										</div>
+										<div class="detail--content">
+											<a href="#" target="_blank" class="content-text">KTV</a>
+										</div>
+									</div>
+								</div>
+								<!--detail -area 生活服务-->
+								<div class="category-detail life-detail">
+									<div class="detail-area">
+										<div class="detail-title">
+											<h2>生活服务</h2>
+											<a href="#" target="_blank">更多<i class="detail-title-arrow"></i></a>
+										</div>
+										<div class="detail--content">
+											<a href="#" target="_blank" class="content-text">衣物/皮具洗护</a><a href="#" target="_blank" class="content-text">家政</a>
+											<a href="#" target="_blank" class="content-text">搬家运输</a><a href="#" target="_blank" class="content-text">送水</a>
+											<a href="#" target="_blank" class="content-text">充值缴费</a><a href="#" target="_blank" class="content-text">服饰/鞋包养护</a>
+											<a href="#" target="_blank" class="content-text">开锁换锁</a><a href="#" target="_blank" class="content-text">居家维修</a>
+											<a href="#" target="_blank" class="content-text">管道疏通</a><a href="#" target="_blank" class="content-text">家电维修清洗</a>
+											<a href="#" target="_blank" class="content-text">电脑维修</a><a href="#" target="_blank" class="content-text">手机维修</a>
+											<a href="#" target="_blank" class="content-text">证件照/肖像摄影</a><a href="#" target="_blank" class="content-text">照片冲印/图文文印</a>
+											<a href="#" target="_blank" class="content-text">商务服务/法律服务</a><a href="#" target="_blank" class="content-text">文化传媒机构</a>
+											<a href="#" target="_blank" class="content-text">成人用品/情趣用品</a>
+										</div>
+									</div>
+								</div>
+								<!--detail -area 丽人 / 美发 / 医学美容-->
+								<div class="category-detail beauty-detail">
+									<div class="detail-area">
+										<div class="detail-title">
+											<h2>丽人</h2>
+											<a href="#" target="_blank">更多<i class="detail-title-arrow"></i></a>
+										</div>
+										<div class="detail--content">
+											<a href="#" target="_blank" class="content-text">美发</a><a href="#" target="_blank" class="content-text">美甲美睫</a>
+											<a href="#" target="_blank" class="content-text">美容美体</a><a href="#" target="_blank" class="content-text">医学美容</a>
+											<a href="#" target="_blank" class="content-text">瑜伽舞蹈</a><a href="#" target="_blank" class="content-text">瘦身纤体</a>
+											<a href="#" target="_blank" class="content-text">韩式定妆</a><a href="#" target="_blank" class="content-text">祛痘</a>
+											<a href="#" target="_blank" class="content-text">纹身</a><a href="#" target="_blank" class="content-text">化妆品</a>
+										</div>
+									</div>
+								</div>
+								<!--detail -area 结婚 / 婚纱摄影 / 婚宴-->
+								<div class="category-detail married-detail">
+									<div class="detail-area">
+										<div class="detail-title">
+											<h2>结婚</h2>
+											<a href="#" target="_blank">更多<i class="detail-title-arrow"></i></a>
+										</div>
+										<div class="detail--content">
+											<a href="#" target="_blank" class="content-text">婚纱摄影</a><a href="#" target="_blank" class="content-text">旅拍</a>
+											<a href="#" target="_blank" class="content-text">个性写真</a><a href="#" target="_blank" class="content-text">婚宴</a>
+											<a href="#" target="_blank" class="content-text">婚庆公司</a><a href="#" target="_blank" class="content-text">婚纱礼服</a>
+											<a href="#" target="_blank" class="content-text">西服定制</a><a href="#" target="_blank" class="content-text">婚戒首饰</a>
+											<a href="#" target="_blank" class="content-text">婚车租赁</a><a href="#" target="_blank" class="content-text">司仪主持</a>
+											<a href="#" target="_blank" class="content-text">彩妆造型</a><a href="#" target="_blank" class="content-text">婚礼跟拍</a>
+											<a href="#" target="_blank" class="content-text">婚礼小礼品</a><a href="#" target="_blank" class="content-text">更多婚礼服务</a>
+										</div>
+									</div>
+								</div>
+								<!--detail -area 亲子 / 儿童乐园 / 幼教-->
+								<div class="category-detail child-detail">
+									<div class="detail-area">
+										<div class="detail-title">
+											<h2>儿童乐园</h2>
+											<a href="#" target="_blank">更多<i class="detail-title-arrow"></i></a>
+										</div>
+										<div class="detail--content">
+											<a href="#" target="_blank" class="content-text">婴儿游泳</a><a href="#" target="_blank" class="content-text">其它亲子游乐</a>
+										</div>
+									</div>
+									<div class="detail-area">
+										<div class="detail-title">
+											<h2>幼儿教育</h2>
+											<a href="#" target="_blank">更多<i class="detail-title-arrow"></i></a>
+										</div>
+										<div class="detail--content">
+											<a href="#" target="_blank" class="content-text">早教中心</a><a href="#" target="_blank" class="content-text">少儿英语</a>
+											<a href="#" target="_blank" class="content-text">智力开发</a><a href="#" target="_blank" class="content-text">托班/幼儿园</a>
+											<a href="#" target="_blank" class="content-text">幼儿教育</a><a href="#" target="_blank" class="content-text">其他幼儿教育</a>
+										</div>
+									</div>
+									<div class="detail-area">
+										<div class="detail-title">
+											<h2>亲子摄影</h2>
+											<a href="#" target="_blank">更多<i class="detail-title-arrow"></i></a>
+										</div>
+										<div class="detail--content">
+											<a href="#" target="_blank" class="content-text">儿童摄影</a><a href="#" target="_blank" class="content-text">孕妇写真</a>
+											<a href="#" target="_blank" class="content-text">上门拍</a><a href="#" target="_blank" class="content-text">其他亲子摄影</a>
+										</div>
+									</div>
+									<div class="detail-area">
+										<div class="detail-title">
+											<h2>孕产护理</h2>
+											<a href="#" target="_blank">更多<i class="detail-title-arrow"></i></a>
+										</div>
+										<div class="detail--content">
+											<a href="#" target="_blank" class="content-text">月子会所</a><a href="#" target="_blank" class="content-text">产后恢复</a>
+											<a href="#" target="_blank" class="content-text">妇幼医院</a><a href="#" target="_blank" class="content-text">孕产用品</a>
+											<a href="#" target="_blank" class="content-text">开奶催乳</a><a href="#" target="_blank" class="content-text">月嫂</a>
+											<a href="#" target="_blank" class="content-text">亲子购物</a><a href="#" target="_blank" class="content-text">宝宝派对</a>
+											<a href="#" target="_blank" class="content-text">亲子服务</a>
+										</div>
+									</div>
+								</div>
+								<!--detail -area 运动健身 / 健身中心-->
+								<div class="category-detail sport-detail">
+									<div class="detail-area">
+										<div class="detail-title">
+											<h2>运动健身</h2>
+											<a href="#" target="_blank">更多<i class="detail-title-arrow"></i></a>
+										</div>
+										<div class="detail--content">
+											<a href="#" target="_blank" class="content-text">健身中心</a><a href="#" target="_blank" class="content-text">武术场馆</a>
+											<a href="#" target="_blank" class="content-text">游泳馆</a><a href="#" target="_blank" class="content-text">羽毛球馆</a>
+											<a href="#" target="_blank" class="content-text">溜冰场</a><a href="#" target="_blank" class="content-text">射箭馆</a>
+											<a href="#" target="_blank" class="content-text">篮球场</a><a href="#" target="_blank" class="content-text">网球馆</a>
+											<a href="#" target="_blank" class="content-text">台球馆</a><a href="#" target="_blank" class="content-text">乒乓球</a>
+											<a href="#" target="_blank" class="content-text">足球场</a><a href="#" target="_blank" class="content-text">高尔夫场</a>
+											<a href="#" target="_blank" class="content-text">保龄球馆</a><a href="#" target="_blank" class="content-text">体育场馆</a>
+											<a href="#" target="_blank" class="content-text">马术场</a><a href="#" target="_blank" class="content-text">壁球馆</a>
+											<a href="#" target="_blank" class="content-text">更多运动</a>
+										</div>
+									</div>
+								</div>
+								<!--detail -area 家装 / 建材 / 家居-->
+								<div class="category-detail decorate-detail">
+									<div class="detail-area">
+										<div class="detail-title">
+											<h2>装修设计</h2>
+											<a href="#" target="_blank">更多<i class="detail-title-arrow"></i></a>
+										</div>
+										<div class="detail--content">
+											<a href="#" target="_blank" class="content-text">半包装修</a><a href="#" target="_blank" class="content-text">全包装修</a>
+											<a href="#" target="_blank" class="content-text">清包装修</a>
+										</div>
+									</div>
+									<div class="detail-area">
+										<div class="detail-title">
+											<h2>装修建材</h2>
+											<a href="#" target="_blank">更多<i class="detail-title-arrow"></i></a>
+										</div>
+										<div class="detail--content">
+											<a href="#" target="_blank" class="content-text">地板</a><a href="#" target="_blank" class="content-text">瓷砖石材</a>
+											<a href="#" target="_blank" class="content-text">橱柜</a><a href="#" target="_blank" class="content-text">灯饰照明</a>
+											<a href="#" target="_blank" class="content-text">厨卫洁具</a><a href="#" target="_blank" class="content-text">油漆涂料</a>
+											<a href="#" target="_blank" class="content-text">集成吊顶</a><a href="#" target="_blank" class="content-text">墙纸墙艺</a>
+											<a href="#" target="_blank" class="content-text">门窗</a><a href="#" target="_blank" class="content-text">木板板材</a>
+											<a href="#" target="_blank" class="content-text">家用五金</a><a href="#" target="_blank" class="content-text">电工电料</a>
+											<a href="#" target="_blank" class="content-text">楼梯</a><a href="#" target="_blank" class="content-text">管材管件</a>
+										</div>
+									</div>
+									<div class="detail-area">
+										<div class="detail-title">
+											<h2>家具家居</h2>
+											<a href="#" target="_blank">更多<i class="detail-title-arrow"></i></a>
+										</div>
+										<div class="detail--content">
+											<a href="#" target="_blank" class="content-text">家具</a><a href="#" target="_blank" class="content-text">床上用品/家纺</a>
+											<a href="#" target="_blank" class="content-text">家居饰品</a><a href="#" target="_blank" class="content-text">厨具茶具</a>
+											<a href="#" target="_blank" class="content-text">厨卫洁具</a><a href="#" target="_blank" class="content-text">油漆涂料</a>
+											<a href="#" target="_blank" class="content-text">智能家居</a>
+										</div>
+									</div>
+									<div class="detail-area">
+										<div class="detail-title">
+											<h2>家装卖场</h2>
+											<a href="#" target="_blank">更多<i class="detail-title-arrow"></i></a>
+										</div>
+										<div class="detail--content">
+											<a href="#" target="_blank" class="content-text">建材卖场</a><a href="#" target="_blank" class="content-text">家居卖场</a>
+											<a href="#" target="_blank" class="content-text">灯饰卖场</a>
+										</div>
+									</div>
+								</div>
+								<!--detail -area 学习培训 / 音乐培训-->
+								<div class="category-detail education-detail">
+									<div class="detail-area">
+										<div class="detail-title">
+											<h2>音乐培训</h2>
+											<a href="#" target="_blank">更多<i class="detail-title-arrow"></i></a>
+										</div>
+										<div class="detail--content">
+											<a href="#" target="_blank" class="content-text">钢琴</a><a href="#" target="_blank" class="content-text">吉他</a>
+											<a href="#" target="_blank" class="content-text">小提琴</a><a href="#" target="_blank" class="content-text">古筝</a>
+											<a href="#" target="_blank" class="content-text">架子鼓</a><a href="#" target="_blank" class="content-text">声乐</a>
+											<a href="#" target="_blank" class="content-text">其他音乐培训</a>
+										</div>
+									</div>
+									<div class="detail-area">
+										<div class="detail-title">
+											<h2>职业培训</h2>
+											<a href="#" target="_blank">更多<i class="detail-title-arrow"></i></a>
+										</div>
+										<div class="detail--content">
+											<a href="#" target="_blank" class="content-text">美容化妆</a><a href="#" target="_blank" class="content-text">会计</a>
+											<a href="#" target="_blank" class="content-text">IT</a><a href="#" target="_blank" class="content-text">厨艺</a>
+											<a href="#" target="_blank" class="content-text">管理培训</a><a href="#" target="_blank" class="content-text">摄影培训</a>
+											<a href="#" target="_blank" class="content-text">司法考试</a><a href="#" target="_blank" class="content-text">公务员培训</a>
+											<a href="#" target="_blank" class="content-text">其他职业培训</a>
+										</div>
+									</div>
+									<div class="detail-area">
+										<div class="detail-title">
+											<h2>外语培训</h2>
+											<a href="#" target="_blank">更多<i class="detail-title-arrow"></i></a>
+										</div>
+										<div class="detail--content">
+											<a href="#" target="_blank" class="content-text">英语</a><a href="#" target="_blank" class="content-text">日语</a>
+											<a href="#" target="_blank" class="content-text">韩语</a><a href="#" target="_blank" class="content-text">法语</a>
+											<a href="#" target="_blank" class="content-text">德语</a><a href="#" target="_blank" class="content-text">汉语</a>
+											<a href="#" target="_blank" class="content-text">俄语</a><a href="#" target="_blank" class="content-text">西班牙语</a>
+											<a href="#" target="_blank" class="content-text">其他外语</a>
+										</div>
+									</div>
+									<div class="detail-area">
+										<div class="detail-title">
+											<h2>美术培训</h2>
+											<a href="#" target="_blank">更多<i class="detail-title-arrow"></i></a>
+										</div>
+										<div class="detail--content">
+											<a href="#" target="_blank" class="content-text">绘画</a><a href="#" target="_blank" class="content-text">书法</a>
+											<a href="#" target="_blank" class="content-text">其他美术</a>
+										</div>
+									</div>
+								</div>
+								<!--detail -area 医疗健康 / 宠物 / 爱车-->
+								<div class="category-detail medical-detail">
+									<div class="detail-area">
+										<div class="detail-title">
+											<h2>医疗健康</h2>
+											<a href="#" target="_blank">更多<i class="detail-title-arrow"></i></a>
+										</div>
+										<div class="detail--content">
+											<a href="#" target="_blank" class="content-text">医院</a><a href="#" target="_blank" class="content-text">齿科口腔</a>
+											<a href="#" target="_blank" class="content-text">体检中心</a><a href="#" target="_blank" class="content-text">药店</a>
+											<a href="#" target="_blank" class="content-text">中医</a><a href="#" target="_blank" class="content-text">其他健康服务</a>
+										</div>
+									</div>
+									<div class="detail-area">
+										<div class="detail-title">
+											<h2>爱车</h2>
+											<a href="#" target="_blank">更多<i class="detail-title-arrow"></i></a>
+										</div>
+										<div class="detail--content">
+											<a href="#" target="_blank" class="content-text">洗车</a><a href="#" target="_blank" class="content-text">租车</a>
+											<a href="#" target="_blank" class="content-text">加油站</a><a href="#" target="_blank" class="content-text">维修保养</a>
+											<a href="#" target="_blank" class="content-text">驾校</a><a href="#" target="_blank" class="content-text">汽车美容</a>
+											<a href="#" target="_blank" class="content-text">陪练</a><a href="#" target="_blank" class="content-text">汽车用品</a>
+											<a href="#" target="_blank" class="content-text">停车场</a><a href="#" target="_blank" class="content-text">汽车保险</a>
+											<a href="#" target="_blank" class="content-text">4S店/汽车销售</a><a href="#" target="_blank" class="content-text">更多汽车服务</a>
+											<a href="#" target="_blank" class="content-text">机油保养</a><a href="#" target="_blank" class="content-text">汽车报价</a>
+											<a href="#" target="_blank" class="content-text">二手车</a><a href="#" target="_blank" class="content-text">广告驾校</a>
+											<a href="#" target="_blank" class="content-text">交警队</a><a href="#" target="_blank" class="content-text">汽车改装</a>
+											<a href="#" target="_blank" class="content-text">汽车配件</a>
+										</div>
+									</div>
+									<div class="detail-area">
+										<div class="detail-title">
+											<h2>宠物</h2>
+											<a href="#" target="_blank">更多<i class="detail-title-arrow"></i></a>
+										</div>
+										<div class="detail--content">
+											<a href="#" target="_blank" class="content-text">宠物店</a><a href="#" target="_blank" class="content-text">宠物医院</a>
+										</div>
+									</div>
+								</div>
+								<!--detail -area 酒吧 / 密室逃脱-->
+								<div class="category-detail bar-detail">
+									<div class="detail-area">
+										<div class="detail-title">
+											<h2>玩乐</h2>
+											<a href="#" target="_blank">更多<i class="detail-title-arrow"></i></a>
+										</div>
+										<div class="detail--content">
+											<a href="#" target="_blank" class="content-text">KTV</a><a href="#" target="_blank" class="content-text">酒吧</a>
+											<a href="#" target="_blank" class="content-text">密室逃脱</a><a href="#" target="_blank" class="content-text">游乐游艺</a>
+											<a href="#" target="_blank" class="content-text">网吧网咖</a><a href="#" target="_blank" class="content-text">私人影院</a>
+											<a href="#" target="_blank" class="content-text">DIY手工坊</a><a href="#" target="_blank" class="content-text">桌面游戏</a>
+											<a href="#" target="_blank" class="content-text">采摘/农家乐</a><a href="#" target="_blank" class="content-text">棋牌室</a>
+											<a href="#" target="_blank" class="content-text">轰趴馆</a><a href="#" target="_blank" class="content-text">真人CS</a>
+											<a href="#" target="_blank" class="content-text">VR</a><a href="#" target="_blank" class="content-text">其他玩乐</a>
+										</div>
+									</div>
+								</div>
+							</div><!--   end二级菜单-->
+						</div>
+					</div>
+					<div class="right-banner">
+						<div class="main-header-link">
+							<a href="#" target="_blank" class="waimai-a" title="美团外卖">美团外卖</a>
+							<a href="#" target="_blank" class="maoyan-a" title="猫眼电影">猫眼电影</a>
+							<a href="#" target="_blank" class="hotel-a" title="美团酒店">美团酒店<span class="nav-promotion">推荐</span></a>
+							<a href="#" target="_blank" class="hotel-b" title="民宿/公寓">民宿/公寓</a>
+							<a href="#" target="_blank" class="shop-a" title="商家入驻">商家入驻</a>
+						</div>
+						<div class="banner-row">
+							<div class="bnaner-item">
+								<!--banner start-->
+								<div class="banner-slider" id="banner-demo">
+									<div class="banner-btn-pre pre-left">
+										<div class="btn-pre-arrow"></div>
+									</div>
+									<div class="banner-btn-pre pre-right">
+										<div class="btn-pre-arrow"></div>
+									</div>
+								</div>
+								<!--end banner-->
+								<a href="#" target="_blank" class="banner-pic-1">
+									<div class="pic-1-box"></div>
+								</a>
+								<div class="banner-login">
+									<div style="float:left;">
+										<div class="login-container">
+											<div class="usr-container"><!--usr-->
+												<div class="head-img">
+													<img src="images/usr.jpg"/>
+												</div>
+												<p class="usr-name">Hi！你好</p>
+												<a class="usr-login-btn" href="#" target="_blank">注册</a>
+												<a class="usr-login-btn" href="#" target="_blank">立即登陆</a>
+											</div>
+											<div></div><!--登前隐藏-->
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="banner-row">
+							<div class="bnaner-item bnaner-item-second">
+								<a href="#" target="_blank" class="banner-row-link">
+									<div class="link-box link-1" style="background-image:url(images/banner-pic-2.jpg"></div>
+								</a>
+								<a href="#" target="_blank" class="banner-row-link">
+									<div class="link-box link-2" style="background-image:url(images/banner-pic-3.jpg"></div>
+								</a>
+								<a href="#" target="_blank" class="banner-row-link">
+									<div class="link-box link-3" style="background-image:url(images/banner-pic-4.jpg"></div>
+								</a>
+								<a href="#" target="_blank" class="banner-row-link">
+									<div class="link-box link-4">
+										<div class="box-img"><img src="images/download-qr.png" alt="app下载"width="95"height="95"/></div>
+										<p>美团APP手机版</p>
+										<p>
+											<span style="font-size:12px;color:#EC5330;margin-right:5px;">1元起</span>
+											<span style="font-size:12px;color:#3f3f3f;">吃喝玩乐</span>
+										</p>
+									</div>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="scenes-container">
+					<div class="quality-container"><!--有格调全部约会聚餐丽人SPA电影演出品质出游-->
+						<div class="index-nav-container" style="background-color: rgb(190, 164, 116); background-image: linear-gradient(to right, rgb(194, 176, 142) 3%, rgb(190, 164, 116) 100%);">
+							<ul class="clearfix ">
+								<li class="title nav-item">有格调</li>
+								<li class="nav-item tab-switch  first">全部<i style="display:block"></i></li>
+								<li class="nav-item tab-switch second">约会聚餐<i></i></li>
+								<li class="nav-item tab-switch third">丽人SPA<i></i></li>
+								<li class="nav-item tab-switch fourth">电影演出<i></i></li>
+								<li class="nav-item tab-switch fifth">品质出游<i></i></li>
+							</ul>
+						</div>
+						<div class="quality-area">
+						<ul><li>
+							<a href="#" target="_blank" class="quality-card">
+								<div class="quality-img"><img src="images/loading.png" data-src="bj_meituan/demo.jpg" alt="" width="" height=""/></div>
+								<div class="card-detail">
+									<div class="card-title" title="渔阳小厨">渔阳小厨</div>
+									<div class="card-sub-title" title="3-5人餐，包间免费">3-5人餐，包间免费</div>
+									<div class="card-price">
+										<span class="current-price-warpper">
+											<span class="price-symbol">¥</span>
+											<span class="current-price">268</span>
+										</span>
+										<span class="old-price">门市价¥843</span>
+										<span class="right-place">左家庄</span>
+									</div>
+								</div>
+							</a>
+							<a href="#" target="_blank" class="quality-card">
+								<div class="quality-img"><img src="images/loading.png" data-src="bj_meituan/demo.jpg" alt="" width="" height=""/></div>
+								<div class="card-detail">
+									<div class="card-title" title="渔阳小厨">渔阳小厨</div>
+									<div class="card-sub-title" title="3-5人餐，包间免费">3-5人餐，包间免费</div>
+									<div class="card-price">
+										<span class="current-price-warpper">
+											<span class="price-symbol">¥</span>
+											<span class="current-price">268</span>
+										</span>
+										<span class="old-price">门市价¥843</span>
+										<span class="right-place">左家庄</span>
+									</div>
+								</div>
+							</a>
+							<a href="#" target="_blank" class="quality-card">
+								<div class="quality-img"><img src="images/loading.png" data-src="bj_meituan/demo.jpg" alt="" width="" height=""/></div>
+								<div class="card-detail">
+									<div class="card-title" title="渔阳小厨">渔阳小厨</div>
+									<div class="card-sub-title" title="3-5人餐，包间免费">3-5人餐，包间免费</div>
+									<div class="card-price">
+										<span class="current-price-warpper">
+											<span class="price-symbol">¥</span>
+											<span class="current-price">268</span>
+										</span>
+										<span class="old-price">门市价¥843</span>
+										<span class="right-place">左家庄</span>
+									</div>
+								</div>
+							</a>
+							<a href="#" target="_blank" class="quality-card">
+								<div class="quality-img"><img src="images/loading.png" data-src="bj_meituan/demo.jpg" alt="" width="" height=""/></div>
+								<div class="card-detail">
+									<div class="card-title" title="渔阳小厨">渔阳小厨</div>
+									<div class="card-sub-title" title="3-5人餐，包间免费">3-5人餐，包间免费</div>
+									<div class="card-price">
+										<span class="current-price-warpper">
+											<span class="price-symbol">¥</span>
+											<span class="current-price">268</span>
+										</span>
+										<span class="old-price">门市价¥843</span>
+										<span class="right-place">左家庄</span>
+									</div>
+								</div>
+							</a>
+							<a href="#" target="_blank" class="quality-card">
+								<div class="quality-img"><img src="images/loading.png" data-src="bj_meituan/demo.jpg" alt="" width="" height=""/></div>
+								<div class="card-detail">
+									<div class="card-title" title="渔阳小厨">渔阳小厨</div>
+									<div class="card-sub-title" title="3-5人餐，包间免费">3-5人餐，包间免费</div>
+									<div class="card-price">
+										<span class="current-price-warpper">
+											<span class="price-symbol">¥</span>
+											<span class="current-price">268</span>
+										</span>
+										<span class="old-price">门市价¥843</span>
+										<span class="right-place">左家庄</span>
+									</div>
+								</div>
+							</a>
+							<a href="#" target="_blank" class="quality-card">
+								<div class="quality-img"><img src="images/loading.png" data-src="bj_meituan/demo.jpg" alt="" width="" height=""/></div>
+								<div class="card-detail">
+									<div class="card-title" title="渔阳小厨">渔阳小厨</div>
+									<div class="card-sub-title" title="3-5人餐，包间免费">3-5人餐，包间免费</div>
+									<div class="card-price">
+										<span class="current-price-warpper">
+											<span class="price-symbol">¥</span>
+											<span class="current-price">268</span>
+										</span>
+										<span class="old-price">门市价¥843</span>
+										<span class="right-place">左家庄</span>
+									</div>
+								</div>
+							</a>
+							</li>
+							<li style="display:none;">
+							<a href="#" target="_blank" class="quality-card">
+								<div class="quality-img"><img src="images/loading.png" data-src="bj_meituan/demo.jpg" alt="" width="" height=""/></div>
+								<div class="card-detail">
+									<div class="card-title" title="渔阳小厨">渔阳小厨</div>
+									<div class="card-sub-title" title="3-5人餐，包间免费">3-5人餐，包间免费</div>
+									<div class="card-price">
+										<span class="current-price-warpper">
+											<span class="price-symbol">¥</span>
+											<span class="current-price">268</span>
+										</span>
+										<span class="old-price">门市价¥843</span>
+										<span class="right-place">左家庄</span>
+									</div>
+								</div>
+							</a>
+							<a href="#" target="_blank" class="quality-card">
+								<div class="quality-img"><img src="images/loading.png" data-src="bj_meituan/demo.jpg" alt="" width="" height=""/></div>
+								<div class="card-detail">
+									<div class="card-title" title="渔阳小厨">渔阳小厨</div>
+									<div class="card-sub-title" title="3-5人餐，包间免费">3-5人餐，包间免费</div>
+									<div class="card-price">
+										<span class="current-price-warpper">
+											<span class="price-symbol">¥</span>
+											<span class="current-price">268</span>
+										</span>
+										<span class="old-price">门市价¥843</span>
+										<span class="right-place">左家庄</span>
+									</div>
+								</div>
+							</a>
+							<a href="#" target="_blank" class="quality-card">
+								<div class="quality-img"><img src="images/loading.png" data-src="bj_meituan/demo.jpg" alt="" width="" height=""/></div>
+								<div class="card-detail">
+									<div class="card-title" title="渔阳小厨">渔阳小厨</div>
+									<div class="card-sub-title" title="3-5人餐，包间免费">3-5人餐，包间免费</div>
+									<div class="card-price">
+										<span class="current-price-warpper">
+											<span class="price-symbol">¥</span>
+											<span class="current-price">268</span>
+										</span>
+										<span class="old-price">门市价¥843</span>
+										<span class="right-place">左家庄</span>
+									</div>
+								</div>
+							</a>
+							<a href="#" target="_blank" class="quality-card">
+								<div class="quality-img"><img src="images/loading.png" data-src="bj_meituan/demo.jpg" alt="" width="" height=""/></div>
+								<div class="card-detail">
+									<div class="card-title" title="渔阳小厨">渔阳小厨</div>
+									<div class="card-sub-title" title="3-5人餐，包间免费">3-5人餐，包间免费</div>
+									<div class="card-price">
+										<span class="current-price-warpper">
+											<span class="price-symbol">¥</span>
+											<span class="current-price">268</span>
+										</span>
+										<span class="old-price">门市价¥843</span>
+										<span class="right-place">左家庄</span>
+									</div>
+								</div>
+							</a>
+							<a href="#" target="_blank" class="quality-card">
+								<div class="quality-img"><img src="images/loading.png" data-src="bj_meituan/demo.jpg" alt="" width="" height=""/></div>
+								<div class="card-detail">
+									<div class="card-title" title="渔阳小厨">渔阳小厨</div>
+									<div class="card-sub-title" title="3-5人餐，包间免费">3-5人餐，包间免费</div>
+									<div class="card-price">
+										<span class="current-price-warpper">
+											<span class="price-symbol">¥</span>
+											<span class="current-price">268</span>
+										</span>
+										<span class="old-price">门市价¥843</span>
+										<span class="right-place">左家庄</span>
+									</div>
+								</div>
+							</a>
+							<a href="#" target="_blank" class="quality-card">
+								<div class="quality-img"><img src="images/loading.png" alt="" width="" height=""/></div>
+								<div class="card-detail">
+									<div class="card-title" title=""></div>
+									<div class="card-sub-title" title=""></div>
+									<div class="card-price">
+										<span class="current-price-warpper">
+											<span class="price-symbol"></span>
+											<span class="current-price"></span>
+										</span>
+										<span class="old-price"></span>
+										<span class="right-place"></span>
+									</div>
+								</div>
+							</a>
+						</li>
+						<li style="display:none;">
+							<a href="#" target="_blank" class="quality-card">
+								<div class="quality-img"><img src="images/loading.png" data-src="bj_meituan/demo.jpg" alt="" width="" height=""/></div>
+								<div class="card-detail">
+									<div class="card-title" title="渔阳小厨">渔阳小厨</div>
+									<div class="card-sub-title" title="3-5人餐，包间免费">3-5人餐，包间免费</div>
+									<div class="card-price">
+										<span class="current-price-warpper">
+											<span class="price-symbol">¥</span>
+											<span class="current-price">268</span>
+										</span>
+										<span class="old-price">门市价¥843</span>
+										<span class="right-place">左家庄</span>
+									</div>
+								</div>
+							</a>
+							<a href="#" target="_blank" class="quality-card">
+								<div class="quality-img"><img src="images/loading.png" data-src="bj_meituan/demo.jpg" alt="" width="" height=""/></div>
+								<div class="card-detail">
+									<div class="card-title" title="渔阳小厨">渔阳小厨</div>
+									<div class="card-sub-title" title="3-5人餐，包间免费">3-5人餐，包间免费</div>
+									<div class="card-price">
+										<span class="current-price-warpper">
+											<span class="price-symbol">¥</span>
+											<span class="current-price">268</span>
+										</span>
+										<span class="old-price">门市价¥843</span>
+										<span class="right-place">左家庄</span>
+									</div>
+								</div>
+							</a>
+							<a href="#" target="_blank" class="quality-card">
+								<div class="quality-img"><img src="images/loading.png" data-src="bj_meituan/demo.jpg" alt="" width="" height=""/></div>
+								<div class="card-detail">
+									<div class="card-title" title="渔阳小厨">渔阳小厨</div>
+									<div class="card-sub-title" title="3-5人餐，包间免费">3-5人餐，包间免费</div>
+									<div class="card-price">
+										<span class="current-price-warpper">
+											<span class="price-symbol">¥</span>
+											<span class="current-price">268</span>
+										</span>
+										<span class="old-price">门市价¥843</span>
+										<span class="right-place">左家庄</span>
+									</div>
+								</div>
+							</a>
+							<a href="#" target="_blank" class="quality-card">
+								<div class="quality-img"><img src="images/loading.png" data-src="bj_meituan/demo.jpg" alt="" width="" height=""/></div>
+								<div class="card-detail">
+									<div class="card-title" title="渔阳小厨">渔阳小厨</div>
+									<div class="card-sub-title" title="3-5人餐，包间免费">3-5人餐，包间免费</div>
+									<div class="card-price">
+										<span class="current-price-warpper">
+											<span class="price-symbol">¥</span>
+											<span class="current-price">268</span>
+										</span>
+										<span class="old-price">门市价¥843</span>
+										<span class="right-place">左家庄</span>
+									</div>
+								</div>
+							</a>
+							<a href="#" target="_blank" class="quality-card">
+								<div class="quality-img"><img src="images/loading.png" data-src="bj_meituan/demo.jpg" alt="" width="" height=""/></div>
+								<div class="card-detail">
+									<div class="card-title" title="渔阳小厨">渔阳小厨</div>
+									<div class="card-sub-title" title="3-5人餐，包间免费">3-5人餐，包间免费</div>
+									<div class="card-price">
+										<span class="current-price-warpper">
+											<span class="price-symbol">¥</span>
+											<span class="current-price">268</span>
+										</span>
+										<span class="old-price">门市价¥843</span>
+										<span class="right-place">左家庄</span>
+									</div>
+								</div>
+							</a>
+							<a href="#" target="_blank" class="quality-card">
+								<div class="quality-img"><img src="images/loading.png" data-src="bj_meituan/demo.jpg" alt="" width="" height=""/></div>
+								<div class="card-detail">
+									<div class="card-title" title="渔阳小厨">渔阳小厨</div>
+									<div class="card-sub-title" title="3-5人餐，包间免费">3-5人餐，包间免费</div>
+									<div class="card-price">
+										<span class="current-price-warpper">
+											<span class="price-symbol">¥</span>
+											<span class="current-price">268</span>
+										</span>
+										<span class="old-price">门市价¥843</span>
+										<span class="right-place">左家庄</span>
+									</div>
+								</div>
+							</a>
+						</li>
+						<li style="display:none;">
+							<a href="#" target="_blank" class="quality-card">
+								<div class="quality-img"><img src="images/loading.png" data-src="bj_meituan/demo.jpg" alt="" width="" height=""/></div>
+								<div class="card-detail">
+									<div class="card-title" title="渔阳小厨">渔阳小厨</div>
+									<div class="card-sub-title" title="3-5人餐，包间免费">3-5人餐，包间免费</div>
+									<div class="card-price">
+										<span class="current-price-warpper">
+											<span class="price-symbol">¥</span>
+											<span class="current-price">268</span>
+										</span>
+										<span class="old-price">门市价¥843</span>
+										<span class="right-place">左家庄</span>
+									</div>
+								</div>
+							</a>
+							<a href="#" target="_blank" class="quality-card">
+								<div class="quality-img"><img src="images/loading.png" data-src="bj_meituan/demo.jpg" alt="" width="" height=""/></div>
+								<div class="card-detail">
+									<div class="card-title" title="渔阳小厨">渔阳小厨</div>
+									<div class="card-sub-title" title="3-5人餐，包间免费">3-5人餐，包间免费</div>
+									<div class="card-price">
+										<span class="current-price-warpper">
+											<span class="price-symbol">¥</span>
+											<span class="current-price">268</span>
+										</span>
+										<span class="old-price">门市价¥843</span>
+										<span class="right-place">左家庄</span>
+									</div>
+								</div>
+							</a>
+							<a href="#" target="_blank" class="quality-card">
+								<div class="quality-img"><img src="images/loading.png" data-src="bj_meituan/demo.jpg" alt="" width="" height=""/></div>
+								<div class="card-detail">
+									<div class="card-title" title="渔阳小厨">渔阳小厨</div>
+									<div class="card-sub-title" title="3-5人餐，包间免费">3-5人餐，包间免费</div>
+									<div class="card-price">
+										<span class="current-price-warpper">
+											<span class="price-symbol">¥</span>
+											<span class="current-price">268</span>
+										</span>
+										<span class="old-price">门市价¥843</span>
+										<span class="right-place">左家庄</span>
+									</div>
+								</div>
+							</a>
+							<a href="#" target="_blank" class="quality-card">
+								<div class="quality-img"><img src="images/loading.png" data-src="bj_meituan/demo.jpg" alt="" width="" height=""/></div>
+								<div class="card-detail">
+									<div class="card-title" title="渔阳小厨">渔阳小厨</div>
+									<div class="card-sub-title" title="3-5人餐，包间免费">3-5人餐，包间免费</div>
+									<div class="card-price">
+										<span class="current-price-warpper">
+											<span class="price-symbol">¥</span>
+											<span class="current-price">268</span>
+										</span>
+										<span class="old-price">门市价¥843</span>
+										<span class="right-place">左家庄</span>
+									</div>
+								</div>
+							</a>
+							<a href="#" target="_blank" class="quality-card">
+								<div class="quality-img"><img src="images/loading.png" data-src="bj_meituan/demo.jpg" alt="" width="" height=""/></div>
+								<div class="card-detail">
+									<div class="card-title" title="渔阳小厨">渔阳小厨</div>
+									<div class="card-sub-title" title="3-5人餐，包间免费">3-5人餐，包间免费</div>
+									<div class="card-price">
+										<span class="current-price-warpper">
+											<span class="price-symbol">¥</span>
+											<span class="current-price">268</span>
+										</span>
+										<span class="old-price">门市价¥843</span>
+										<span class="right-place">左家庄</span>
+									</div>
+								</div>
+							</a>
+							<a href="#" target="_blank" class="quality-card">
+								<div class="quality-img"><img src="images/loading.png" data-src="bj_meituan/demo.jpg" alt="" width="" height=""/></div>
+								<div class="card-detail">
+									<div class="card-title" title="渔阳小厨">渔阳小厨</div>
+									<div class="card-sub-title" title="3-5人餐，包间免费">3-5人餐，包间免费</div>
+									<div class="card-price">
+										<span class="current-price-warpper">
+											<span class="price-symbol">¥</span>
+											<span class="current-price">268</span>
+										</span>
+										<span class="old-price">门市价¥843</span>
+										<span class="right-place">左家庄</span>
+									</div>
+								</div>
+							</a>
+						</li>
+						<li style="display:none;">
+							<a href="#" target="_blank" class="quality-card">
+								<div class="quality-img"><img src="images/loading.png" data-src="bj_meituan/demo.jpg" alt="" width="" height=""/></div>
+								<div class="card-detail">
+									<div class="card-title" title="渔阳小厨">渔阳小厨</div>
+									<div class="card-sub-title" title="3-5人餐，包间免费">3-5人餐，包间免费</div>
+									<div class="card-price">
+										<span class="current-price-warpper">
+											<span class="price-symbol">¥</span>
+											<span class="current-price">268</span>
+										</span>
+										<span class="old-price">门市价¥843</span>
+										<span class="right-place">左家庄</span>
+									</div>
+								</div>
+							</a>
+							<a href="#" target="_blank" class="quality-card">
+								<div class="quality-img"><img src="images/loading.png" data-src="bj_meituan/demo.jpg" alt="" width="" height=""/></div>
+								<div class="card-detail">
+									<div class="card-title" title="渔阳小厨">渔阳小厨</div>
+									<div class="card-sub-title" title="3-5人餐，包间免费">3-5人餐，包间免费</div>
+									<div class="card-price">
+										<span class="current-price-warpper">
+											<span class="price-symbol">¥</span>
+											<span class="current-price">268</span>
+										</span>
+										<span class="old-price">门市价¥843</span>
+										<span class="right-place">左家庄</span>
+									</div>
+								</div>
+							</a>
+							<a href="#" target="_blank" class="quality-card">
+								<div class="quality-img"><img src="images/loading.png" data-src="bj_meituan/demo.jpg" alt="" width="" height=""/></div>
+								<div class="card-detail">
+									<div class="card-title" title="渔阳小厨">渔阳小厨</div>
+									<div class="card-sub-title" title="3-5人餐，包间免费">3-5人餐，包间免费</div>
+									<div class="card-price">
+										<span class="current-price-warpper">
+											<span class="price-symbol">¥</span>
+											<span class="current-price">268</span>
+										</span>
+										<span class="old-price">门市价¥843</span>
+										<span class="right-place">左家庄</span>
+									</div>
+								</div>
+							</a>
+							<a href="#" target="_blank" class="quality-card">
+								<div class="quality-img"><img src="images/loading.png" data-src="bj_meituan/demo.jpg" alt="" width="" height=""/></div>
+								<div class="card-detail">
+									<div class="card-title" title="渔阳小厨">渔阳小厨</div>
+									<div class="card-sub-title" title="3-5人餐，包间免费">3-5人餐，包间免费</div>
+									<div class="card-price">
+										<span class="current-price-warpper">
+											<span class="price-symbol">¥</span>
+											<span class="current-price">268</span>
+										</span>
+										<span class="old-price">门市价¥843</span>
+										<span class="right-place">左家庄</span>
+									</div>
+								</div>
+							</a>
+							<a href="#" target="_blank" class="quality-card">
+								<div class="quality-img"><img src="images/loading.png" data-src="bj_meituan/demo.jpg" alt="" width="" height=""/></div>
+								<div class="card-detail">
+									<div class="card-title" title="渔阳小厨">渔阳小厨</div>
+									<div class="card-sub-title" title="3-5人餐，包间免费">3-5人餐，包间免费</div>
+									<div class="card-price">
+										<span class="current-price-warpper">
+											<span class="price-symbol">¥</span>
+											<span class="current-price">268</span>
+										</span>
+										<span class="old-price">门市价¥843</span>
+										<span class="right-place">左家庄</span>
+									</div>
+								</div>
+							</a>
+							<a href="#" target="_blank" class="quality-card">
+								<div class="quality-img"><img src="images/loading.png" data-src="bj_meituan/demo.jpg" alt="" width="" height=""/></div>
+								<div class="card-detail">
+									<div class="card-title" title="渔阳小厨">渔阳小厨</div>
+									<div class="card-sub-title" title="3-5人餐，包间免费">3-5人餐，包间免费</div>
+									<div class="card-price">
+										<span class="current-price-warpper">
+											<span class="price-symbol">¥</span>
+											<span class="current-price">268</span>
+										</span>
+										<span class="old-price">门市价¥843</span>
+										<span class="right-place">左家庄</span>
+									</div>
+								</div>
+							</a>
+						</li>
+						</ul>
+					</div>
+					<div class="offer-container"><!--狠优惠全部美食休闲-->
+						<div class="index-nav-container" style="background-image:linear-gradient(to right, rgb(255, 113, 74) 2%, rgb(252, 66, 66) 97%);">
+							<ul class="clearfix ">
+								<li class="title nav-item">狠优惠</li>
+								<li class="nav-item tab-switch">全部<i style="display:block"></i></li>
+								<li class="nav-item tab-switch">美食<i></i></li>
+								<li class="nav-item tab-switch">休闲<i></i></li>
+							</ul>
+						</div>
+						<div class="cheap-area">
+						<ul><li>
+							<a href="#" target="_blank" class="cheap-card">
+								<div class="cheap-img"><img src="bj_meituan/cheap-demo.jpg" alt="" width="" height=""/></div>
+								<div class="card-detail">
+									<div class="card-title" title="祥云酒楼">祥云酒楼</div>
+									<div class="card-sub-title" title="[密云区]1000元宴会券1张，可叠加">[密云区]1000元宴会券1张，可叠加</div>
+									<div class="card-price">
+										<span class="current-price-warpper">
+											<span class="price-symbol">¥</span>
+											<span class="current-price">1</span>
+										</span>
+										<span class="old-price">美团价¥1000</span>
+										<span class="right-place">已售57</span>
+									</div>
+								</div>
+							</a>
+							<a href="#" target="_blank" class="cheap-card">
+								<div class="cheap-img"><img src="bj_meituan/cheap-demo.jpg" alt="" width="" height=""/></div>
+								<div class="card-detail">
+									<div class="card-title" title="祥云酒楼">祥云酒楼</div>
+									<div class="card-sub-title" title="[密云区]1000元宴会券1张，可叠加">[密云区]1000元宴会券1张，可叠加</div>
+									<div class="card-price">
+										<span class="current-price-warpper">
+											<span class="price-symbol">¥</span>
+											<span class="current-price">1</span>
+										</span>
+										<span class="old-price">美团价¥1000</span>
+										<span class="right-place">已售57</span>
+									</div>
+								</div>
+							</a>
+							<a href="#" target="_blank" class="cheap-card">
+								<div class="cheap-img"><img src="bj_meituan/cheap-demo.jpg" alt="" width="" height=""/></div>
+								<div class="card-detail">
+									<div class="card-title" title="祥云酒楼">祥云酒楼</div>
+									<div class="card-sub-title" title="[密云区]1000元宴会券1张，可叠加">[密云区]1000元宴会券1张，可叠加</div>
+									<div class="card-price">
+										<span class="current-price-warpper">
+											<span class="price-symbol">¥</span>
+											<span class="current-price">1</span>
+										</span>
+										<span class="old-price">美团价¥1000</span>
+										<span class="right-place">已售57</span>
+									</div>
+								</div>
+							</a>
+							<a href="#" target="_blank" class="cheap-card">
+								<div class="cheap-img"><img src="bj_meituan/cheap-demo.jpg" alt="" width="" height=""/></div>
+								<div class="card-detail">
+									<div class="card-title" title="祥云酒楼">祥云酒楼</div>
+									<div class="card-sub-title" title="[密云区]1000元宴会券1张，可叠加">[密云区]1000元宴会券1张，可叠加</div>
+									<div class="card-price">
+										<span class="current-price-warpper">
+											<span class="price-symbol">¥</span>
+											<span class="current-price">1</span>
+										</span>
+										<span class="old-price">美团价¥1000</span>
+										<span class="right-place">已售57</span>
+									</div>
+								</div>
+							</a>
+							<a href="#" target="_blank" class="cheap-card">
+								<div class="cheap-img"><img src="bj_meituan/cheap-demo.jpg" alt="" width="" height=""/></div>
+								<div class="card-detail">
+									<div class="card-title" title="祥云酒楼">祥云酒楼</div>
+									<div class="card-sub-title" title="[密云区]1000元宴会券1张，可叠加">[密云区]1000元宴会券1张，可叠加</div>
+									<div class="card-price">
+										<span class="current-price-warpper">
+											<span class="price-symbol">¥</span>
+											<span class="current-price">1</span>
+										</span>
+										<span class="old-price">美团价¥1000</span>
+										<span class="right-place">已售57</span>
+									</div>
+								</div>
+							</a>
+							<a href="#" target="_blank" class="cheap-card">
+								<div class="cheap-img"><img src="images/loading.png" data-src="bj_meituan/cheap-demo.jpg" alt="" width="" height=""/></div>
+								<div class="card-detail">
+									<div class="card-title" title="祥云酒楼">祥云酒楼</div>
+									<div class="card-sub-title" title="[密云区]1000元宴会券1张，可叠加">[密云区]1000元宴会券1张，可叠加</div>
+									<div class="card-price">
+										<span class="current-price-warpper">
+											<span class="price-symbol">¥</span>
+											<span class="current-price">1</span>
+										</span>
+										<span class="old-price">美团价¥1000</span>
+										<span class="right-place">已售57</span>
+									</div>
+								</div>
+							</a>
+							<a href="#" target="_blank" class="cheap-card">
+								<div class="cheap-img"><img src="images/loading.png" data-src="bj_meituan/cheap-demo.jpg" alt="" width="" height=""/></div>
+								<div class="card-detail">
+									<div class="card-title" title="祥云酒楼">祥云酒楼</div>
+									<div class="card-sub-title" title="[密云区]1000元宴会券1张，可叠加">[密云区]1000元宴会券1张，可叠加</div>
+									<div class="card-price">
+										<span class="current-price-warpper">
+											<span class="price-symbol">¥</span>
+											<span class="current-price">1</span>
+										</span>
+										<span class="old-price">美团价¥1000</span>
+										<span class="right-place">已售57</span>
+									</div>
+								</div>
+							</a>
+							<a href="#" target="_blank" class="cheap-card">
+								<div class="cheap-img"><img src="images/loading.png" data-src="bj_meituan/cheap-demo.jpg" alt="" width="" height=""/></div>
+								<div class="card-detail">
+									<div class="card-title" title="祥云酒楼">祥云酒楼</div>
+									<div class="card-sub-title" title="[密云区]1000元宴会券1张，可叠加">[密云区]1000元宴会券1张，可叠加</div>
+									<div class="card-price">
+										<span class="current-price-warpper">
+											<span class="price-symbol">¥</span>
+											<span class="current-price">1</span>
+										</span>
+										<span class="old-price">美团价¥1000</span>
+										<span class="right-place">已售57</span>
+									</div>
+								</div>
+							</a>
+							<a href="#" target="_blank" class="cheap-card">
+								<div class="cheap-img"><img src="images/loading.png" data-src="bj_meituan/cheap-demo.jpg" alt="" width="" height=""/></div>
+								<div class="card-detail">
+									<div class="card-title" title="祥云酒楼">祥云酒楼</div>
+									<div class="card-sub-title" title="[密云区]1000元宴会券1张，可叠加">[密云区]1000元宴会券1张，可叠加</div>
+									<div class="card-price">
+										<span class="current-price-warpper">
+											<span class="price-symbol">¥</span>
+											<span class="current-price">1</span>
+										</span>
+										<span class="old-price">美团价¥1000</span>
+										<span class="right-place">已售57</span>
+									</div>
+								</div>
+							</a>
+							<a href="#" target="_blank" class="cheap-card">
+								<div class="cheap-img"><img src="images/loading.png" data-src="bj_meituan/cheap-demo.jpg" alt="" width="" height=""/></div>
+								<div class="card-detail">
+									<div class="card-title" title="祥云酒楼">祥云酒楼</div>
+									<div class="card-sub-title" title="[密云区]1000元宴会券1张，可叠加">[密云区]1000元宴会券1张，可叠加</div>
+									<div class="card-price">
+										<span class="current-price-warpper">
+											<span class="price-symbol">¥</span>
+											<span class="current-price">1</span>
+										</span>
+										<span class="old-price">美团价¥1000</span>
+										<span class="right-place">已售57</span>
+									</div>
+								</div>
+							</a>
+						</li>
+						<li style="display:none;">
+							<a href="#" target="_blank" class="cheap-card">
+								<div class="cheap-img"><img src="images/loading.png" data-src="bj_meituan/cheap-demo.jpg" alt="" width="" height=""/></div>
+								<div class="card-detail">
+									<div class="card-title" title="祥云酒楼">祥云酒楼</div>
+									<div class="card-sub-title" title="[密云区]1000元宴会券1张，可叠加">[密云区]1000元宴会券1张，可叠加</div>
+									<div class="card-price">
+										<span class="current-price-warpper">
+											<span class="price-symbol">¥</span>
+											<span class="current-price">1</span>
+										</span>
+										<span class="old-price">美团价¥1000</span>
+										<span class="right-place">已售57</span>
+									</div>
+								</div>
+							</a>
+							<a href="#" target="_blank" class="cheap-card">
+								<div class="cheap-img"><img src="images/loading.png" data-src="bj_meituan/cheap-demo.jpg" alt="" width="" height=""/></div>
+								<div class="card-detail">
+									<div class="card-title" title="祥云酒楼">祥云酒楼</div>
+									<div class="card-sub-title" title="[密云区]1000元宴会券1张，可叠加">[密云区]1000元宴会券1张，可叠加</div>
+									<div class="card-price">
+										<span class="current-price-warpper">
+											<span class="price-symbol">¥</span>
+											<span class="current-price">1</span>
+										</span>
+										<span class="old-price">美团价¥1000</span>
+										<span class="right-place">已售57</span>
+									</div>
+								</div>
+							</a>
+							<a href="#" target="_blank" class="cheap-card">
+								<div class="cheap-img"><img src="images/loading.png" data-src="bj_meituan/cheap-demo.jpg" alt="" width="" height=""/></div>
+								<div class="card-detail">
+									<div class="card-title" title="祥云酒楼">祥云酒楼</div>
+									<div class="card-sub-title" title="[密云区]1000元宴会券1张，可叠加">[密云区]1000元宴会券1张，可叠加</div>
+									<div class="card-price">
+										<span class="current-price-warpper">
+											<span class="price-symbol">¥</span>
+											<span class="current-price">1</span>
+										</span>
+										<span class="old-price">美团价¥1000</span>
+										<span class="right-place">已售57</span>
+									</div>
+								</div>
+							</a>
+							<a href="#" target="_blank" class="cheap-card">
+								<div class="cheap-img"><img src="images/loading.png" data-src="bj_meituan/cheap-demo.jpg" alt="" width="" height=""/></div>
+								<div class="card-detail">
+									<div class="card-title" title="祥云酒楼">祥云酒楼</div>
+									<div class="card-sub-title" title="[密云区]1000元宴会券1张，可叠加">[密云区]1000元宴会券1张，可叠加</div>
+									<div class="card-price">
+										<span class="current-price-warpper">
+											<span class="price-symbol">¥</span>
+											<span class="current-price">1</span>
+										</span>
+										<span class="old-price">美团价¥1000</span>
+										<span class="right-place">已售57</span>
+									</div>
+								</div>
+							</a>
+							<a href="#" target="_blank" class="cheap-card">
+								<div class="cheap-img"><img src="images/loading.png" data-src="bj_meituan/cheap-demo.jpg" alt="" width="" height=""/></div>
+								<div class="card-detail">
+									<div class="card-title" title="祥云酒楼">祥云酒楼</div>
+									<div class="card-sub-title" title="[密云区]1000元宴会券1张，可叠加">[密云区]1000元宴会券1张，可叠加</div>
+									<div class="card-price">
+										<span class="current-price-warpper">
+											<span class="price-symbol">¥</span>
+											<span class="current-price">1</span>
+										</span>
+										<span class="old-price">美团价¥1000</span>
+										<span class="right-place">已售57</span>
+									</div>
+								</div>
+							</a>
+							<a href="#" target="_blank" class="cheap-card">
+								<div class="cheap-img"><img src="images/loading.png" data-src="bj_meituan/cheap-demo.jpg" alt="" width="" height=""/></div>
+								<div class="card-detail">
+									<div class="card-title" title="祥云酒楼">祥云酒楼</div>
+									<div class="card-sub-title" title="[密云区]1000元宴会券1张，可叠加">[密云区]1000元宴会券1张，可叠加</div>
+									<div class="card-price">
+										<span class="current-price-warpper">
+											<span class="price-symbol">¥</span>
+											<span class="current-price">1</span>
+										</span>
+										<span class="old-price">美团价¥1000</span>
+										<span class="right-place">已售57</span>
+									</div>
+								</div>
+							</a>
+							<a href="#" target="_blank" class="cheap-card">
+								<div class="cheap-img"><img src="images/loading.png" data-src="bj_meituan/cheap-demo.jpg" alt="" width="" height=""/></div>
+								<div class="card-detail">
+									<div class="card-title" title="祥云酒楼">祥云酒楼</div>
+									<div class="card-sub-title" title="[密云区]1000元宴会券1张，可叠加">[密云区]1000元宴会券1张，可叠加</div>
+									<div class="card-price">
+										<span class="current-price-warpper">
+											<span class="price-symbol">¥</span>
+											<span class="current-price">1</span>
+										</span>
+										<span class="old-price">美团价¥1000</span>
+										<span class="right-place">已售57</span>
+									</div>
+								</div>
+							</a>
+							<a href="#" target="_blank" class="cheap-card">
+								<div class="cheap-img"><img src="images/loading.png" data-src="bj_meituan/cheap-demo.jpg" alt="" width="" height=""/></div>
+								<div class="card-detail">
+									<div class="card-title" title="祥云酒楼">祥云酒楼</div>
+									<div class="card-sub-title" title="[密云区]1000元宴会券1张，可叠加">[密云区]1000元宴会券1张，可叠加</div>
+									<div class="card-price">
+										<span class="current-price-warpper">
+											<span class="price-symbol">¥</span>
+											<span class="current-price">1</span>
+										</span>
+										<span class="old-price">美团价¥1000</span>
+										<span class="right-place">已售57</span>
+									</div>
+								</div>
+							</a>
+							<a href="#" target="_blank" class="cheap-card">
+								<div class="cheap-img"><img src="images/loading.png" data-src="bj_meituan/cheap-demo.jpg" alt="" width="" height=""/></div>
+								<div class="card-detail">
+									<div class="card-title" title="祥云酒楼">祥云酒楼</div>
+									<div class="card-sub-title" title="[密云区]1000元宴会券1张，可叠加">[密云区]1000元宴会券1张，可叠加</div>
+									<div class="card-price">
+										<span class="current-price-warpper">
+											<span class="price-symbol">¥</span>
+											<span class="current-price">1</span>
+										</span>
+										<span class="old-price">美团价¥1000</span>
+										<span class="right-place">已售57</span>
+									</div>
+								</div>
+							</a>
+						</li>
+						<li style="display:none">
+							<a href="#" target="_blank" class="cheap-card">
+								<div class="cheap-img"><img src="images/loading.png" data-src="bj_meituan/cheap-demo.jpg" alt="" width="" height=""/></div>
+								<div class="card-detail">
+									<div class="card-title" title="祥云酒楼">祥云酒楼</div>
+									<div class="card-sub-title" title="[密云区]1000元宴会券1张，可叠加">[密云区]1000元宴会券1张，可叠加</div>
+									<div class="card-price">
+										<span class="current-price-warpper">
+											<span class="price-symbol">¥</span>
+											<span class="current-price">1</span>
+										</span>
+										<span class="old-price">美团价¥1000</span>
+										<span class="right-place">已售57</span>
+									</div>
+								</div>
+							</a>
+							<a href="#" target="_blank" class="cheap-card">
+								<div class="cheap-img"><img src="images/loading.png" data-src="bj_meituan/cheap-demo.jpg" alt="" width="" height=""/></div>
+								<div class="card-detail">
+									<div class="card-title" title="祥云酒楼">祥云酒楼</div>
+									<div class="card-sub-title" title="[密云区]1000元宴会券1张，可叠加">[密云区]1000元宴会券1张，可叠加</div>
+									<div class="card-price">
+										<span class="current-price-warpper">
+											<span class="price-symbol">¥</span>
+											<span class="current-price">1</span>
+										</span>
+										<span class="old-price">美团价¥1000</span>
+										<span class="right-place">已售57</span>
+									</div>
+								</div>
+							</a>
+							<a href="#" target="_blank" class="cheap-card">
+								<div class="cheap-img"><img src="images/loading.png" data-src="bj_meituan/cheap-demo.jpg" alt="" width="" height=""/></div>
+								<div class="card-detail">
+									<div class="card-title" title="祥云酒楼">祥云酒楼</div>
+									<div class="card-sub-title" title="[密云区]1000元宴会券1张，可叠加">[密云区]1000元宴会券1张，可叠加</div>
+									<div class="card-price">
+										<span class="current-price-warpper">
+											<span class="price-symbol">¥</span>
+											<span class="current-price">1</span>
+										</span>
+										<span class="old-price">美团价¥1000</span>
+										<span class="right-place">已售57</span>
+									</div>
+								</div>
+							</a>
+							<a href="#" target="_blank" class="cheap-card">
+								<div class="cheap-img"><img src="images/loading.png" data-src="bj_meituan/cheap-demo.jpg" alt="" width="" height=""/></div>
+								<div class="card-detail">
+									<div class="card-title" title="祥云酒楼">祥云酒楼</div>
+									<div class="card-sub-title" title="[密云区]1000元宴会券1张，可叠加">[密云区]1000元宴会券1张，可叠加</div>
+									<div class="card-price">
+										<span class="current-price-warpper">
+											<span class="price-symbol">¥</span>
+											<span class="current-price">1</span>
+										</span>
+										<span class="old-price">美团价¥1000</span>
+										<span class="right-place">已售57</span>
+									</div>
+								</div>
+							</a>
+							<a href="#" target="_blank" class="cheap-card">
+								<div class="cheap-img"><img src="images/loading.png" data-src="bj_meituan/cheap-demo.jpg" alt="" width="" height=""/></div>
+								<div class="card-detail">
+									<div class="card-title" title="祥云酒楼">祥云酒楼</div>
+									<div class="card-sub-title" title="[密云区]1000元宴会券1张，可叠加">[密云区]1000元宴会券1张，可叠加</div>
+									<div class="card-price">
+										<span class="current-price-warpper">
+											<span class="price-symbol">¥</span>
+											<span class="current-price">1</span>
+										</span>
+										<span class="old-price">美团价¥1000</span>
+										<span class="right-place">已售57</span>
+									</div>
+								</div>
+							</a>
+							<a href="#" target="_blank" class="cheap-card">
+								<div class="cheap-img"><img src="images/loading.png" data-src="bj_meituan/cheap-demo.jpg" alt="" width="" height=""/></div>
+								<div class="card-detail">
+									<div class="card-title" title="祥云酒楼">祥云酒楼</div>
+									<div class="card-sub-title" title="[密云区]1000元宴会券1张，可叠加">[密云区]1000元宴会券1张，可叠加</div>
+									<div class="card-price">
+										<span class="current-price-warpper">
+											<span class="price-symbol">¥</span>
+											<span class="current-price">1</span>
+										</span>
+										<span class="old-price">美团价¥1000</span>
+										<span class="right-place">已售57</span>
+									</div>
+								</div>
+							</a>
+							<a href="#" target="_blank" class="cheap-card">
+								<div class="cheap-img"><img src="images/loading.png" data-src="bj_meituan/cheap-demo.jpg" alt="" width="" height=""/></div>
+								<div class="card-detail">
+									<div class="card-title" title="祥云酒楼">祥云酒楼</div>
+									<div class="card-sub-title" title="[密云区]1000元宴会券1张，可叠加">[密云区]1000元宴会券1张，可叠加</div>
+									<div class="card-price">
+										<span class="current-price-warpper">
+											<span class="price-symbol">¥</span>
+											<span class="current-price">1</span>
+										</span>
+										<span class="old-price">美团价¥1000</span>
+										<span class="right-place">已售57</span>
+									</div>
+								</div>
+							</a>
+							<a href="#" target="_blank" class="cheap-card">
+								<div class="cheap-img"><img src="images/loading.png" data-src="bj_meituan/cheap-demo.jpg" alt="" width="" height=""/></div>
+								<div class="card-detail">
+									<div class="card-title" title="祥云酒楼">祥云酒楼</div>
+									<div class="card-sub-title" title="[密云区]1000元宴会券1张，可叠加">[密云区]1000元宴会券1张，可叠加</div>
+									<div class="card-price">
+										<span class="current-price-warpper">
+											<span class="price-symbol">¥</span>
+											<span class="current-price">1</span>
+										</span>
+										<span class="old-price">美团价¥1000</span>
+										<span class="right-place">已售57</span>
+									</div>
+								</div>
+							</a>
+							<a href="#" target="_blank" class="cheap-card">
+								<div class="cheap-img"><img src="images/loading.png" data-src="bj_meituan/cheap-demo.jpg" alt="" width="" height=""/></div>
+								<div class="card-detail">
+									<div class="card-title" title="祥云酒楼">祥云酒楼</div>
+									<div class="card-sub-title" title="[密云区]1000元宴会券1张，可叠加">[密云区]1000元宴会券1张，可叠加</div>
+									<div class="card-price">
+										<span class="current-price-warpper">
+											<span class="price-symbol">¥</span>
+											<span class="current-price">1</span>
+										</span>
+										<span class="old-price">美团价¥1000</span>
+										<span class="right-place">已售57</span>
+									</div>
+								</div>
+							</a>
+							<a href="#" target="_blank" class="cheap-card">
+								<div class="cheap-img"><img src="images/loading.png" data-src="bj_meituan/cheap-demo.jpg" alt="" width="" height=""/></div>
+								<div class="card-detail">
+									<div class="card-title" title="祥云酒楼">祥云酒楼</div>
+									<div class="card-sub-title" title="[密云区]1000元宴会券1张，可叠加">[密云区]1000元宴会券1张，可叠加</div>
+									<div class="card-price">
+										<span class="current-price-warpper">
+											<span class="price-symbol">¥</span>
+											<span class="current-price">1</span>
+										</span>
+										<span class="old-price">美团价¥1000</span>
+										<span class="right-place">已售57</span>
+									</div>
+								</div>
+							</a>
+						</li></ul>
+						</div>
+					</div>
+				</div><!--scenes-container-->
+				<div class="maoyan-container"><!--猫眼电影正在热映即将上映-->
+					<div class="index-nav-container" style="background:linear-gradient(to right, rgb(250, 60, 104) 2%, rgb(254, 70, 77) 97%) rgb(250, 60, 104);">
+							<ul class="clearfix ">
+								<li class="title nav-item">猫眼电影</li>
+								<li class="nav-item tab-switch hot-li">正在热映<i style="display:block"></i></li>
+								<li class="nav-item tab-switch coming-li">即将上映<i></i></li>
+								<li class="nav-item total"><a href="#" target="_blank"><span>全部 ></span></a></li>
+							</ul>
+					</div>
+					<div class="scenes-body">
+						<ul><li>
+						<div class="hot-container">
+							<div style="display:block">
+								<div class="slider">
+									<div class="slider-content">
+										<div class="slider-item-film">
+											<a href="#" target="_blank">
+												<img class="film-img" src="images/film.jpg"/>
+												<img class="film-mark" src="images/imax.png"/>
+												<div class="film-info">
+													<p class="film-score"><b>观众评</b><span>7.6</span></p>
+													<p class="film-name">环太平洋：雷霆再起</p>
+													<span class="buy-ticket">购票</span>
+												</div>
+											</a>
+										</div>
+										<div class="slider-item-film">
+											<a href="#" target="_blank">
+												<img class="film-img" src="images/film.jpg"/>
+												<img class="film-mark" src="images/imax.png"/>
+												<div class="film-info">
+													<p class="film-score"><b>观众评</b><span>7.6</span></p>
+													<p class="film-name">环太平洋：雷霆再起</p>
+													<span class="buy-ticket">购票</span>
+												</div>
+											</a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						</li>
+						<li style="display:none">
+						<div class="coming-container">
+							<div style="display:block">
+								<div class="slider">
+									<div class="slider-content">
+										<div class="slider-item-film">
+											<a href="#" target="_blank">
+												<img class="film-img" src="images/coming-film.jpg"/>
+												<img class="film-mark" src="images/imax.png"/>
+												<div class="film-info">
+													<p class="film-score"><span>73801</span><b>  人想看</b></p>
+													<p class="film-name">头号玩家</p>
+													<span class="buy-ticket">预售</span>
+												</div>
+											</a>
+										</div>
+										<div class="slider-item-film">
+											<a href="#" target="_blank">
+												<img class="film-img" src="images/coming-film.jpg"/>
+												<img class="film-mark" src="images/imax.png"/>
+												<div class="film-info">
+													<p class="film-score"><span>73801</span><b>  人想看</b></p>
+													<p class="film-name">头号玩家</p>
+													<span class="buy-ticket">预售</span>
+												</div>
+											</a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						</li></ul>
+					</div>
+				</div><!--maoyan-container-->
+				<div class="zhenguo-container"><!--济南天津太原大连秦皇岛石家庄唐山泰安承德保定-->
+					<div class="index-nav-container" style="background:linear-gradient(to right, rgb(243, 182, 74) 2%, rgb(242, 197, 69) 97%) rgb(243, 182, 74);">
+							<ul class="clearfix ">
+								<li class="title nav-item">推荐民宿</li>
+								<li class="nav-item tab-switch">济南<i style="display:block"></i></li>
+								<li class="nav-item tab-switch">天津<i></i></li>
+								<li class="nav-item tab-switch">太原<i></i></li>
+								<li class="nav-item tab-switch">大连<i></i></li>
+								<li class="nav-item tab-switch">秦皇岛<i></i></li>
+								<li class="nav-item tab-switch">石家庄<i></i></li>
+								<li class="nav-item tab-switch">唐山<i></i></li>
+								<li class="nav-item tab-switch">泰安<i></i></li>
+								<li class="nav-item tab-switch">承德<i></i></li>
+								<li class="nav-item tab-switch">保定<i></i></li>
+								<li class="nav-item total"><a href="#" target="_blank"><span>全部 ></span></a></li>
+							</ul>
+					</div>
+					<div class="minsu-area">
+						<ul><li>
+						<div class="products">
+							<div class="minsu-item">
+								<a href="#" target="_blank">
+									<div class="product-card-header">
+										<img class="product-img" src="bj_meituan/minsu.jpg"/>
+										<img class="product-head" src="bj_meituan/minsu-usr.jpg"/>
+									</div>
+									<div class="product-info">
+										<p class="product-title">千佛山&泉城公园旅游达人的家</p>
+										<p class="sub-title"><span>整套2居室·</span><span>可住6人 | </span><span>千佛山公园</span></p>
+										<p class="product-price"><span style="font-size:14px;">￥</span>268</p>
+									</div>
+								</a>
+							</div>
+							<div class="minsu-item">
+								<a href="#" target="_blank">
+									<div class="product-card-header">
+										<img class="product-img" src="bj_meituan/minsu.jpg"/>
+										<img class="product-head" src="bj_meituan/minsu-usr.jpg"/>
+									</div>
+									<div class="product-info">
+										<p class="product-title">千佛山&泉城公园旅游达人的家</p>
+										<p class="sub-title"><span>整套2居室·</span><span>可住6人 | </span><span>千佛山公园</span></p>
+										<p class="product-price"><span style="font-size:14px;">￥</span>268</p>
+									</div>
+								</a>
+							</div>
+							<div class="minsu-item">
+								<a href="#" target="_blank">
+									<div class="product-card-header">
+										<img class="product-img" src="bj_meituan/minsu.jpg"/>
+										<img class="product-head" src="bj_meituan/minsu-usr.jpg"/>
+									</div>
+									<div class="product-info">
+										<p class="product-title">千佛山&泉城公园旅游达人的家</p>
+										<p class="sub-title"><span>整套2居室·</span><span>可住6人 | </span><span>千佛山公园</span></p>
+										<p class="product-price"><span style="font-size:14px;">￥</span>268</p>
+									</div>
+								</a>
+							</div>
+							<div class="minsu-item">
+								<a href="#" target="_blank">
+									<div class="product-card-header">
+										<img class="product-img" src="images/loading.png" data-src="bj_meituan/minsu.jpg"/>
+										<img class="product-head" src="bj_meituan/minsu-usr.jpg"/>
+									</div>
+									<div class="product-info">
+										<p class="product-title">千佛山&泉城公园旅游达人的家</p>
+										<p class="sub-title"><span>整套2居室·</span><span>可住6人 | </span><span>千佛山公园</span></p>
+										<p class="product-price"><span style="font-size:14px;">￥</span>268</p>
+									</div>
+								</a>
+							</div>
+							<div class="minsu-item">
+								<a href="#" target="_blank">
+									<div class="product-card-header">
+										<img class="product-img" src="images/loading.png" data-src="bj_meituan/minsu.jpg"/>
+										<img class="product-head" src="bj_meituan/minsu-usr.jpg"/>
+									</div>
+									<div class="product-info">
+										<p class="product-title">千佛山&泉城公园旅游达人的家</p>
+										<p class="sub-title"><span>整套2居室·</span><span>可住6人 | </span><span>千佛山公园</span></p>
+										<p class="product-price"><span style="font-size:14px;">￥</span>268</p>
+									</div>
+								</a>
+							</div>
+							<div class="minsu-item">
+								<a href="#" target="_blank">
+									<div class="product-card-header">
+										<img class="product-img" src="images/loading.png" data-src="bj_meituan/minsu.jpg"/>
+										<img class="product-head" src="bj_meituan/minsu-usr.jpg"/>
+									</div>
+									<div class="product-info">
+										<p class="product-title">千佛山&泉城公园旅游达人的家</p>
+										<p class="sub-title"><span>整套2居室·</span><span>可住6人 | </span><span>千佛山公园</span></p>
+										<p class="product-price"><span style="font-size:14px;">￥</span>268</p>
+									</div>
+								</a>
+							</div>
+						</div>
+					</li>
+					<li style="display:none">
+						<div class="products">
+							<div class="minsu-item">
+								<a href="#" target="_blank">
+									<div class="product-card-header">
+										<img class="product-img" src="bj_meituan/minsu.jpg"/>
+										<img class="product-head" src="bj_meituan/minsu-usr.jpg"/>
+									</div>
+									<div class="product-info">
+										<p class="product-title">千佛山&泉城公园旅游达人的家</p>
+										<p class="sub-title"><span>整套2居室·</span><span>可住6人 | </span><span>千佛山公园</span></p>
+										<p class="product-price"><span style="font-size:14px;">￥</span>268</p>
+									</div>
+								</a>
+							</div>
+							<div class="minsu-item">
+								<a href="#" target="_blank">
+									<div class="product-card-header">
+										<img class="product-img" src="bj_meituan/minsu.jpg"/>
+										<img class="product-head" src="bj_meituan/minsu-usr.jpg"/>
+									</div>
+									<div class="product-info">
+										<p class="product-title">千佛山&泉城公园旅游达人的家</p>
+										<p class="sub-title"><span>整套2居室·</span><span>可住6人 | </span><span>千佛山公园</span></p>
+										<p class="product-price"><span style="font-size:14px;">￥</span>268</p>
+									</div>
+								</a>
+							</div>
+							<div class="minsu-item">
+								<a href="#" target="_blank">
+									<div class="product-card-header">
+										<img class="product-img" src="bj_meituan/minsu.jpg"/>
+										<img class="product-head" src="bj_meituan/minsu-usr.jpg"/>
+									</div>
+									<div class="product-info">
+										<p class="product-title">千佛山&泉城公园旅游达人的家</p>
+										<p class="sub-title"><span>整套2居室·</span><span>可住6人 | </span><span>千佛山公园</span></p>
+										<p class="product-price"><span style="font-size:14px;">￥</span>268</p>
+									</div>
+								</a>
+							</div>
+							<div class="minsu-item">
+								<a href="#" target="_blank">
+									<div class="product-card-header">
+										<img class="product-img" src="images/loading.png" data-src="bj_meituan/minsu.jpg"/>
+										<img class="product-head" src="bj_meituan/minsu-usr.jpg"/>
+									</div>
+									<div class="product-info">
+										<p class="product-title">千佛山&泉城公园旅游达人的家</p>
+										<p class="sub-title"><span>整套2居室·</span><span>可住6人 | </span><span>千佛山公园</span></p>
+										<p class="product-price"><span style="font-size:14px;">￥</span>268</p>
+									</div>
+								</a>
+							</div>
+							<div class="minsu-item">
+								<a href="#" target="_blank">
+									<div class="product-card-header">
+										<img class="product-img" src="images/loading.png" data-src="bj_meituan/minsu.jpg"/>
+										<img class="product-head" src="bj_meituan/minsu-usr.jpg"/>
+									</div>
+									<div class="product-info">
+										<p class="product-title">千佛山&泉城公园旅游达人的家</p>
+										<p class="sub-title"><span>整套2居室·</span><span>可住6人 | </span><span>千佛山公园</span></p>
+										<p class="product-price"><span style="font-size:14px;">￥</span>268</p>
+									</div>
+								</a>
+							</div>
+							<div class="minsu-item">
+								<a href="#" target="_blank">
+									<div class="product-card-header">
+										<img class="product-img" src="images/loading.png" data-src="bj_meituan/minsu.jpg"/>
+										<img class="product-head" src="bj_meituan/minsu-usr.jpg"/>
+									</div>
+									<div class="product-info">
+										<p class="product-title">千佛山&泉城公园旅游达人的家</p>
+										<p class="sub-title"><span>整套2居室·</span><span>可住6人 | </span><span>千佛山公园</span></p>
+										<p class="product-price"><span style="font-size:14px;">￥</span>268</p>
+									</div>
+								</a>
+							</div>
+						</div>
+					</li>
+					<li style="display:none">
+						<div class="products">
+							<div class="minsu-item">
+								<a href="#" target="_blank">
+									<div class="product-card-header">
+										<img class="product-img" src="bj_meituan/minsu.jpg"/>
+										<img class="product-head" src="bj_meituan/minsu-usr.jpg"/>
+									</div>
+									<div class="product-info">
+										<p class="product-title">千佛山&泉城公园旅游达人的家</p>
+										<p class="sub-title"><span>整套2居室·</span><span>可住6人 | </span><span>千佛山公园</span></p>
+										<p class="product-price"><span style="font-size:14px;">￥</span>268</p>
+									</div>
+								</a>
+							</div>
+							<div class="minsu-item">
+								<a href="#" target="_blank">
+									<div class="product-card-header">
+										<img class="product-img" src="bj_meituan/minsu.jpg"/>
+										<img class="product-head" src="bj_meituan/minsu-usr.jpg"/>
+									</div>
+									<div class="product-info">
+										<p class="product-title">千佛山&泉城公园旅游达人的家</p>
+										<p class="sub-title"><span>整套2居室·</span><span>可住6人 | </span><span>千佛山公园</span></p>
+										<p class="product-price"><span style="font-size:14px;">￥</span>268</p>
+									</div>
+								</a>
+							</div>
+							<div class="minsu-item">
+								<a href="#" target="_blank">
+									<div class="product-card-header">
+										<img class="product-img" src="bj_meituan/minsu.jpg"/>
+										<img class="product-head" src="bj_meituan/minsu-usr.jpg"/>
+									</div>
+									<div class="product-info">
+										<p class="product-title">千佛山&泉城公园旅游达人的家</p>
+										<p class="sub-title"><span>整套2居室·</span><span>可住6人 | </span><span>千佛山公园</span></p>
+										<p class="product-price"><span style="font-size:14px;">￥</span>268</p>
+									</div>
+								</a>
+							</div>
+							<div class="minsu-item">
+								<a href="#" target="_blank">
+									<div class="product-card-header">
+										<img class="product-img" src="images/loading.png" data-src="bj_meituan/minsu.jpg"/>
+										<img class="product-head" src="bj_meituan/minsu-usr.jpg"/>
+									</div>
+									<div class="product-info">
+										<p class="product-title">千佛山&泉城公园旅游达人的家</p>
+										<p class="sub-title"><span>整套2居室·</span><span>可住6人 | </span><span>千佛山公园</span></p>
+										<p class="product-price"><span style="font-size:14px;">￥</span>268</p>
+									</div>
+								</a>
+							</div>
+							<div class="minsu-item">
+								<a href="#" target="_blank">
+									<div class="product-card-header">
+										<img class="product-img" src="images/loading.png" data-src="bj_meituan/minsu.jpg"/>
+										<img class="product-head" src="bj_meituan/minsu-usr.jpg"/>
+									</div>
+									<div class="product-info">
+										<p class="product-title">千佛山&泉城公园旅游达人的家</p>
+										<p class="sub-title"><span>整套2居室·</span><span>可住6人 | </span><span>千佛山公园</span></p>
+										<p class="product-price"><span style="font-size:14px;">￥</span>268</p>
+									</div>
+								</a>
+							</div>
+							<div class="minsu-item">
+								<a href="#" target="_blank">
+									<div class="product-card-header">
+										<img class="product-img" src="images/loading.png" data-src="bj_meituan/minsu.jpg"/>
+										<img class="product-head" src="bj_meituan/minsu-usr.jpg"/>
+									</div>
+									<div class="product-info">
+										<p class="product-title">千佛山&泉城公园旅游达人的家</p>
+										<p class="sub-title"><span>整套2居室·</span><span>可住6人 | </span><span>千佛山公园</span></p>
+										<p class="product-price"><span style="font-size:14px;">￥</span>268</p>
+									</div>
+								</a>
+							</div>
+						</div>
+					</li>
+					<li style="display:none">
+						<div class="products">
+							<div class="minsu-item">
+								<a href="#" target="_blank">
+									<div class="product-card-header">
+										<img class="product-img" src="bj_meituan/minsu.jpg"/>
+										<img class="product-head" src="bj_meituan/minsu-usr.jpg"/>
+									</div>
+									<div class="product-info">
+										<p class="product-title">千佛山&泉城公园旅游达人的家</p>
+										<p class="sub-title"><span>整套2居室·</span><span>可住6人 | </span><span>千佛山公园</span></p>
+										<p class="product-price"><span style="font-size:14px;">￥</span>268</p>
+									</div>
+								</a>
+							</div>
+							<div class="minsu-item">
+								<a href="#" target="_blank">
+									<div class="product-card-header">
+										<img class="product-img" src="bj_meituan/minsu.jpg"/>
+										<img class="product-head" src="bj_meituan/minsu-usr.jpg"/>
+									</div>
+									<div class="product-info">
+										<p class="product-title">千佛山&泉城公园旅游达人的家</p>
+										<p class="sub-title"><span>整套2居室·</span><span>可住6人 | </span><span>千佛山公园</span></p>
+										<p class="product-price"><span style="font-size:14px;">￥</span>268</p>
+									</div>
+								</a>
+							</div>
+							<div class="minsu-item">
+								<a href="#" target="_blank">
+									<div class="product-card-header">
+										<img class="product-img" src="bj_meituan/minsu.jpg"/>
+										<img class="product-head" src="bj_meituan/minsu-usr.jpg"/>
+									</div>
+									<div class="product-info">
+										<p class="product-title">千佛山&泉城公园旅游达人的家</p>
+										<p class="sub-title"><span>整套2居室·</span><span>可住6人 | </span><span>千佛山公园</span></p>
+										<p class="product-price"><span style="font-size:14px;">￥</span>268</p>
+									</div>
+								</a>
+							</div>
+							<div class="minsu-item">
+								<a href="#" target="_blank">
+									<div class="product-card-header">
+										<img class="product-img" src="images/loading.png" data-src="bj_meituan/minsu.jpg"/>
+										<img class="product-head" src="bj_meituan/minsu-usr.jpg"/>
+									</div>
+									<div class="product-info">
+										<p class="product-title">千佛山&泉城公园旅游达人的家</p>
+										<p class="sub-title"><span>整套2居室·</span><span>可住6人 | </span><span>千佛山公园</span></p>
+										<p class="product-price"><span style="font-size:14px;">￥</span>268</p>
+									</div>
+								</a>
+							</div>
+							<div class="minsu-item">
+								<a href="#" target="_blank">
+									<div class="product-card-header">
+										<img class="product-img" src="images/loading.png" data-src="bj_meituan/minsu.jpg"/>
+										<img class="product-head" src="bj_meituan/minsu-usr.jpg"/>
+									</div>
+									<div class="product-info">
+										<p class="product-title">千佛山&泉城公园旅游达人的家</p>
+										<p class="sub-title"><span>整套2居室·</span><span>可住6人 | </span><span>千佛山公园</span></p>
+										<p class="product-price"><span style="font-size:14px;">￥</span>268</p>
+									</div>
+								</a>
+							</div>
+							<div class="minsu-item">
+								<a href="#" target="_blank">
+									<div class="product-card-header">
+										<img class="product-img" src="images/loading.png" data-src="bj_meituan/minsu.jpg"/>
+										<img class="product-head" src="bj_meituan/minsu-usr.jpg"/>
+									</div>
+									<div class="product-info">
+										<p class="product-title">千佛山&泉城公园旅游达人的家</p>
+										<p class="sub-title"><span>整套2居室·</span><span>可住6人 | </span><span>千佛山公园</span></p>
+										<p class="product-price"><span style="font-size:14px;">￥</span>268</p>
+									</div>
+								</a>
+							</div>
+						</div>
+					</li>
+					<li style="display:none">
+						<div class="products">
+							<div class="minsu-item">
+								<a href="#" target="_blank">
+									<div class="product-card-header">
+										<img class="product-img" src="bj_meituan/minsu.jpg"/>
+										<img class="product-head" src="bj_meituan/minsu-usr.jpg"/>
+									</div>
+									<div class="product-info">
+										<p class="product-title">千佛山&泉城公园旅游达人的家</p>
+										<p class="sub-title"><span>整套2居室·</span><span>可住6人 | </span><span>千佛山公园</span></p>
+										<p class="product-price"><span style="font-size:14px;">￥</span>268</p>
+									</div>
+								</a>
+							</div>
+							<div class="minsu-item">
+								<a href="#" target="_blank">
+									<div class="product-card-header">
+										<img class="product-img" src="bj_meituan/minsu.jpg"/>
+										<img class="product-head" src="bj_meituan/minsu-usr.jpg"/>
+									</div>
+									<div class="product-info">
+										<p class="product-title">千佛山&泉城公园旅游达人的家</p>
+										<p class="sub-title"><span>整套2居室·</span><span>可住6人 | </span><span>千佛山公园</span></p>
+										<p class="product-price"><span style="font-size:14px;">￥</span>268</p>
+									</div>
+								</a>
+							</div>
+							<div class="minsu-item">
+								<a href="#" target="_blank">
+									<div class="product-card-header">
+										<img class="product-img" src="bj_meituan/minsu.jpg"/>
+										<img class="product-head" src="bj_meituan/minsu-usr.jpg"/>
+									</div>
+									<div class="product-info">
+										<p class="product-title">千佛山&泉城公园旅游达人的家</p>
+										<p class="sub-title"><span>整套2居室·</span><span>可住6人 | </span><span>千佛山公园</span></p>
+										<p class="product-price"><span style="font-size:14px;">￥</span>268</p>
+									</div>
+								</a>
+							</div>
+							<div class="minsu-item">
+								<a href="#" target="_blank">
+									<div class="product-card-header">
+										<img class="product-img" src="images/loading.png" data-src="bj_meituan/minsu.jpg"/>
+										<img class="product-head" src="bj_meituan/minsu-usr.jpg"/>
+									</div>
+									<div class="product-info">
+										<p class="product-title">千佛山&泉城公园旅游达人的家</p>
+										<p class="sub-title"><span>整套2居室·</span><span>可住6人 | </span><span>千佛山公园</span></p>
+										<p class="product-price"><span style="font-size:14px;">￥</span>268</p>
+									</div>
+								</a>
+							</div>
+							<div class="minsu-item">
+								<a href="#" target="_blank">
+									<div class="product-card-header">
+										<img class="product-img" src="images/loading.png" data-src="bj_meituan/minsu.jpg"/>
+										<img class="product-head" src="bj_meituan/minsu-usr.jpg"/>
+									</div>
+									<div class="product-info">
+										<p class="product-title">千佛山&泉城公园旅游达人的家</p>
+										<p class="sub-title"><span>整套2居室·</span><span>可住6人 | </span><span>千佛山公园</span></p>
+										<p class="product-price"><span style="font-size:14px;">￥</span>268</p>
+									</div>
+								</a>
+							</div>
+							<div class="minsu-item">
+								<a href="#" target="_blank">
+									<div class="product-card-header">
+										<img class="product-img" src="images/loading.png" data-src="bj_meituan/minsu.jpg"/>
+										<img class="product-head" src="bj_meituan/minsu-usr.jpg"/>
+									</div>
+									<div class="product-info">
+										<p class="product-title">千佛山&泉城公园旅游达人的家</p>
+										<p class="sub-title"><span>整套2居室·</span><span>可住6人 | </span><span>千佛山公园</span></p>
+										<p class="product-price"><span style="font-size:14px;">￥</span>268</p>
+									</div>
+								</a>
+							</div>
+						</div>
+					</li>
+					<li style="display:none">
+						<div class="products">
+							<div class="minsu-item">
+								<a href="#" target="_blank">
+									<div class="product-card-header">
+										<img class="product-img" src="bj_meituan/minsu.jpg"/>
+										<img class="product-head" src="bj_meituan/minsu-usr.jpg"/>
+									</div>
+									<div class="product-info">
+										<p class="product-title">千佛山&泉城公园旅游达人的家</p>
+										<p class="sub-title"><span>整套2居室·</span><span>可住6人 | </span><span>千佛山公园</span></p>
+										<p class="product-price"><span style="font-size:14px;">￥</span>268</p>
+									</div>
+								</a>
+							</div>
+							<div class="minsu-item">
+								<a href="#" target="_blank">
+									<div class="product-card-header">
+										<img class="product-img" src="bj_meituan/minsu.jpg"/>
+										<img class="product-head" src="bj_meituan/minsu-usr.jpg"/>
+									</div>
+									<div class="product-info">
+										<p class="product-title">千佛山&泉城公园旅游达人的家</p>
+										<p class="sub-title"><span>整套2居室·</span><span>可住6人 | </span><span>千佛山公园</span></p>
+										<p class="product-price"><span style="font-size:14px;">￥</span>268</p>
+									</div>
+								</a>
+							</div>
+							<div class="minsu-item">
+								<a href="#" target="_blank">
+									<div class="product-card-header">
+										<img class="product-img" src="bj_meituan/minsu.jpg"/>
+										<img class="product-head" src="bj_meituan/minsu-usr.jpg"/>
+									</div>
+									<div class="product-info">
+										<p class="product-title">千佛山&泉城公园旅游达人的家</p>
+										<p class="sub-title"><span>整套2居室·</span><span>可住6人 | </span><span>千佛山公园</span></p>
+										<p class="product-price"><span style="font-size:14px;">￥</span>268</p>
+									</div>
+								</a>
+							</div>
+							<div class="minsu-item">
+								<a href="#" target="_blank">
+									<div class="product-card-header">
+										<img class="product-img" src="images/loading.png" data-src="bj_meituan/minsu.jpg"/>
+										<img class="product-head" src="bj_meituan/minsu-usr.jpg"/>
+									</div>
+									<div class="product-info">
+										<p class="product-title">千佛山&泉城公园旅游达人的家</p>
+										<p class="sub-title"><span>整套2居室·</span><span>可住6人 | </span><span>千佛山公园</span></p>
+										<p class="product-price"><span style="font-size:14px;">￥</span>268</p>
+									</div>
+								</a>
+							</div>
+							<div class="minsu-item">
+								<a href="#" target="_blank">
+									<div class="product-card-header">
+										<img class="product-img" src="images/loading.png" data-src="bj_meituan/minsu.jpg"/>
+										<img class="product-head" src="bj_meituan/minsu-usr.jpg"/>
+									</div>
+									<div class="product-info">
+										<p class="product-title">千佛山&泉城公园旅游达人的家</p>
+										<p class="sub-title"><span>整套2居室·</span><span>可住6人 | </span><span>千佛山公园</span></p>
+										<p class="product-price"><span style="font-size:14px;">￥</span>268</p>
+									</div>
+								</a>
+							</div>
+							<div class="minsu-item">
+								<a href="#" target="_blank">
+									<div class="product-card-header">
+										<img class="product-img" src="images/loading.png" data-src="bj_meituan/minsu.jpg"/>
+										<img class="product-head" src="bj_meituan/minsu-usr.jpg"/>
+									</div>
+									<div class="product-info">
+										<p class="product-title">千佛山&泉城公园旅游达人的家</p>
+										<p class="sub-title"><span>整套2居室·</span><span>可住6人 | </span><span>千佛山公园</span></p>
+										<p class="product-price"><span style="font-size:14px;">￥</span>268</p>
+									</div>
+								</a>
+							</div>
+						</div>
+					</li>
+					<li style="display:none">
+						<div class="products">
+							<div class="minsu-item">
+								<a href="#" target="_blank">
+									<div class="product-card-header">
+										<img class="product-img" src="bj_meituan/minsu.jpg"/>
+										<img class="product-head" src="bj_meituan/minsu-usr.jpg"/>
+									</div>
+									<div class="product-info">
+										<p class="product-title">千佛山&泉城公园旅游达人的家</p>
+										<p class="sub-title"><span>整套2居室·</span><span>可住6人 | </span><span>千佛山公园</span></p>
+										<p class="product-price"><span style="font-size:14px;">￥</span>268</p>
+									</div>
+								</a>
+							</div>
+							<div class="minsu-item">
+								<a href="#" target="_blank">
+									<div class="product-card-header">
+										<img class="product-img" src="bj_meituan/minsu.jpg"/>
+										<img class="product-head" src="bj_meituan/minsu-usr.jpg"/>
+									</div>
+									<div class="product-info">
+										<p class="product-title">千佛山&泉城公园旅游达人的家</p>
+										<p class="sub-title"><span>整套2居室·</span><span>可住6人 | </span><span>千佛山公园</span></p>
+										<p class="product-price"><span style="font-size:14px;">￥</span>268</p>
+									</div>
+								</a>
+							</div>
+							<div class="minsu-item">
+								<a href="#" target="_blank">
+									<div class="product-card-header">
+										<img class="product-img" src="bj_meituan/minsu.jpg"/>
+										<img class="product-head" src="bj_meituan/minsu-usr.jpg"/>
+									</div>
+									<div class="product-info">
+										<p class="product-title">千佛山&泉城公园旅游达人的家</p>
+										<p class="sub-title"><span>整套2居室·</span><span>可住6人 | </span><span>千佛山公园</span></p>
+										<p class="product-price"><span style="font-size:14px;">￥</span>268</p>
+									</div>
+								</a>
+							</div>
+							<div class="minsu-item">
+								<a href="#" target="_blank">
+									<div class="product-card-header">
+										<img class="product-img" src="images/loading.png" data-src="bj_meituan/minsu.jpg"/>
+										<img class="product-head" src="bj_meituan/minsu-usr.jpg"/>
+									</div>
+									<div class="product-info">
+										<p class="product-title">千佛山&泉城公园旅游达人的家</p>
+										<p class="sub-title"><span>整套2居室·</span><span>可住6人 | </span><span>千佛山公园</span></p>
+										<p class="product-price"><span style="font-size:14px;">￥</span>268</p>
+									</div>
+								</a>
+							</div>
+							<div class="minsu-item">
+								<a href="#" target="_blank">
+									<div class="product-card-header">
+										<img class="product-img" src="images/loading.png" data-src="bj_meituan/minsu.jpg"/>
+										<img class="product-head" src="bj_meituan/minsu-usr.jpg"/>
+									</div>
+									<div class="product-info">
+										<p class="product-title">千佛山&泉城公园旅游达人的家</p>
+										<p class="sub-title"><span>整套2居室·</span><span>可住6人 | </span><span>千佛山公园</span></p>
+										<p class="product-price"><span style="font-size:14px;">￥</span>268</p>
+									</div>
+								</a>
+							</div>
+							<div class="minsu-item">
+								<a href="#" target="_blank">
+									<div class="product-card-header">
+										<img class="product-img" src="images/loading.png" data-src="bj_meituan/minsu.jpg"/>
+										<img class="product-head" src="bj_meituan/minsu-usr.jpg"/>
+									</div>
+									<div class="product-info">
+										<p class="product-title">千佛山&泉城公园旅游达人的家</p>
+										<p class="sub-title"><span>整套2居室·</span><span>可住6人 | </span><span>千佛山公园</span></p>
+										<p class="product-price"><span style="font-size:14px;">￥</span>268</p>
+									</div>
+								</a>
+							</div>
+						</div>
+					</li>
+					<li style="display:none">
+						<div class="products">
+							<div class="minsu-item">
+								<a href="#" target="_blank">
+									<div class="product-card-header">
+										<img class="product-img" src="bj_meituan/minsu.jpg"/>
+										<img class="product-head" src="bj_meituan/minsu-usr.jpg"/>
+									</div>
+									<div class="product-info">
+										<p class="product-title">千佛山&泉城公园旅游达人的家</p>
+										<p class="sub-title"><span>整套2居室·</span><span>可住6人 | </span><span>千佛山公园</span></p>
+										<p class="product-price"><span style="font-size:14px;">￥</span>268</p>
+									</div>
+								</a>
+							</div>
+							<div class="minsu-item">
+								<a href="#" target="_blank">
+									<div class="product-card-header">
+										<img class="product-img" src="bj_meituan/minsu.jpg"/>
+										<img class="product-head" src="bj_meituan/minsu-usr.jpg"/>
+									</div>
+									<div class="product-info">
+										<p class="product-title">千佛山&泉城公园旅游达人的家</p>
+										<p class="sub-title"><span>整套2居室·</span><span>可住6人 | </span><span>千佛山公园</span></p>
+										<p class="product-price"><span style="font-size:14px;">￥</span>268</p>
+									</div>
+								</a>
+							</div>
+							<div class="minsu-item">
+								<a href="#" target="_blank">
+									<div class="product-card-header">
+										<img class="product-img" src="bj_meituan/minsu.jpg"/>
+										<img class="product-head" src="bj_meituan/minsu-usr.jpg"/>
+									</div>
+									<div class="product-info">
+										<p class="product-title">千佛山&泉城公园旅游达人的家</p>
+										<p class="sub-title"><span>整套2居室·</span><span>可住6人 | </span><span>千佛山公园</span></p>
+										<p class="product-price"><span style="font-size:14px;">￥</span>268</p>
+									</div>
+								</a>
+							</div>
+							<div class="minsu-item">
+								<a href="#" target="_blank">
+									<div class="product-card-header">
+										<img class="product-img" src="images/loading.png" data-src="bj_meituan/minsu.jpg"/>
+										<img class="product-head" src="bj_meituan/minsu-usr.jpg"/>
+									</div>
+									<div class="product-info">
+										<p class="product-title">千佛山&泉城公园旅游达人的家</p>
+										<p class="sub-title"><span>整套2居室·</span><span>可住6人 | </span><span>千佛山公园</span></p>
+										<p class="product-price"><span style="font-size:14px;">￥</span>268</p>
+									</div>
+								</a>
+							</div>
+							<div class="minsu-item">
+								<a href="#" target="_blank">
+									<div class="product-card-header">
+										<img class="product-img" src="images/loading.png" data-src="bj_meituan/minsu.jpg"/>
+										<img class="product-head" src="bj_meituan/minsu-usr.jpg"/>
+									</div>
+									<div class="product-info">
+										<p class="product-title">千佛山&泉城公园旅游达人的家</p>
+										<p class="sub-title"><span>整套2居室·</span><span>可住6人 | </span><span>千佛山公园</span></p>
+										<p class="product-price"><span style="font-size:14px;">￥</span>268</p>
+									</div>
+								</a>
+							</div>
+							<div class="minsu-item">
+								<a href="#" target="_blank">
+									<div class="product-card-header">
+										<img class="product-img" src="images/loading.png" data-src="bj_meituan/minsu.jpg"/>
+										<img class="product-head" src="bj_meituan/minsu-usr.jpg"/>
+									</div>
+									<div class="product-info">
+										<p class="product-title">千佛山&泉城公园旅游达人的家</p>
+										<p class="sub-title"><span>整套2居室·</span><span>可住6人 | </span><span>千佛山公园</span></p>
+										<p class="product-price"><span style="font-size:14px;">￥</span>268</p>
+									</div>
+								</a>
+							</div>
+						</div>
+					</li>
+					<li style="display:none">
+						<div class="products">
+							<div class="minsu-item">
+								<a href="#" target="_blank">
+									<div class="product-card-header">
+										<img class="product-img" src="bj_meituan/minsu.jpg"/>
+										<img class="product-head" src="bj_meituan/minsu-usr.jpg"/>
+									</div>
+									<div class="product-info">
+										<p class="product-title">千佛山&泉城公园旅游达人的家</p>
+										<p class="sub-title"><span>整套2居室·</span><span>可住6人 | </span><span>千佛山公园</span></p>
+										<p class="product-price"><span style="font-size:14px;">￥</span>268</p>
+									</div>
+								</a>
+							</div>
+							<div class="minsu-item">
+								<a href="#" target="_blank">
+									<div class="product-card-header">
+										<img class="product-img" src="bj_meituan/minsu.jpg"/>
+										<img class="product-head" src="bj_meituan/minsu-usr.jpg"/>
+									</div>
+									<div class="product-info">
+										<p class="product-title">千佛山&泉城公园旅游达人的家</p>
+										<p class="sub-title"><span>整套2居室·</span><span>可住6人 | </span><span>千佛山公园</span></p>
+										<p class="product-price"><span style="font-size:14px;">￥</span>268</p>
+									</div>
+								</a>
+							</div>
+							<div class="minsu-item">
+								<a href="#" target="_blank">
+									<div class="product-card-header">
+										<img class="product-img" src="bj_meituan/minsu.jpg"/>
+										<img class="product-head" src="bj_meituan/minsu-usr.jpg"/>
+									</div>
+									<div class="product-info">
+										<p class="product-title">千佛山&泉城公园旅游达人的家</p>
+										<p class="sub-title"><span>整套2居室·</span><span>可住6人 | </span><span>千佛山公园</span></p>
+										<p class="product-price"><span style="font-size:14px;">￥</span>268</p>
+									</div>
+								</a>
+							</div>
+							<div class="minsu-item">
+								<a href="#" target="_blank">
+									<div class="product-card-header">
+										<img class="product-img" src="images/loading.png" data-src="bj_meituan/minsu.jpg"/>
+										<img class="product-head" src="bj_meituan/minsu-usr.jpg"/>
+									</div>
+									<div class="product-info">
+										<p class="product-title">千佛山&泉城公园旅游达人的家</p>
+										<p class="sub-title"><span>整套2居室·</span><span>可住6人 | </span><span>千佛山公园</span></p>
+										<p class="product-price"><span style="font-size:14px;">￥</span>268</p>
+									</div>
+								</a>
+							</div>
+							<div class="minsu-item">
+								<a href="#" target="_blank">
+									<div class="product-card-header">
+										<img class="product-img" src="images/loading.png" data-src="bj_meituan/minsu.jpg"/>
+										<img class="product-head" src="bj_meituan/minsu-usr.jpg"/>
+									</div>
+									<div class="product-info">
+										<p class="product-title">千佛山&泉城公园旅游达人的家</p>
+										<p class="sub-title"><span>整套2居室·</span><span>可住6人 | </span><span>千佛山公园</span></p>
+										<p class="product-price"><span style="font-size:14px;">￥</span>268</p>
+									</div>
+								</a>
+							</div>
+							<div class="minsu-item">
+								<a href="#" target="_blank">
+									<div class="product-card-header">
+										<img class="product-img" src="images/loading.png" data-src="bj_meituan/minsu.jpg"/>
+										<img class="product-head" src="bj_meituan/minsu-usr.jpg"/>
+									</div>
+									<div class="product-info">
+										<p class="product-title">千佛山&泉城公园旅游达人的家</p>
+										<p class="sub-title"><span>整套2居室·</span><span>可住6人 | </span><span>千佛山公园</span></p>
+										<p class="product-price"><span style="font-size:14px;">￥</span>268</p>
+									</div>
+								</a>
+							</div>
+						</div>
+					</li>
+					<li style="display:none">
+						<div class="products">
+							<div class="minsu-item">
+								<a href="#" target="_blank">
+									<div class="product-card-header">
+										<img class="product-img" src="bj_meituan/minsu.jpg"/>
+										<img class="product-head" src="bj_meituan/minsu-usr.jpg"/>
+									</div>
+									<div class="product-info">
+										<p class="product-title">千佛山&泉城公园旅游达人的家</p>
+										<p class="sub-title"><span>整套2居室·</span><span>可住6人 | </span><span>千佛山公园</span></p>
+										<p class="product-price"><span style="font-size:14px;">￥</span>268</p>
+									</div>
+								</a>
+							</div>
+							<div class="minsu-item">
+								<a href="#" target="_blank">
+									<div class="product-card-header">
+										<img class="product-img" src="bj_meituan/minsu.jpg"/>
+										<img class="product-head" src="bj_meituan/minsu-usr.jpg"/>
+									</div>
+									<div class="product-info">
+										<p class="product-title">千佛山&泉城公园旅游达人的家</p>
+										<p class="sub-title"><span>整套2居室·</span><span>可住6人 | </span><span>千佛山公园</span></p>
+										<p class="product-price"><span style="font-size:14px;">￥</span>268</p>
+									</div>
+								</a>
+							</div>
+							<div class="minsu-item">
+								<a href="#" target="_blank">
+									<div class="product-card-header">
+										<img class="product-img" src="bj_meituan/minsu.jpg"/>
+										<img class="product-head" src="bj_meituan/minsu-usr.jpg"/>
+									</div>
+									<div class="product-info">
+										<p class="product-title">千佛山&泉城公园旅游达人的家</p>
+										<p class="sub-title"><span>整套2居室·</span><span>可住6人 | </span><span>千佛山公园</span></p>
+										<p class="product-price"><span style="font-size:14px;">￥</span>268</p>
+									</div>
+								</a>
+							</div>
+							<div class="minsu-item">
+								<a href="#" target="_blank">
+									<div class="product-card-header">
+										<img class="product-img" src="images/loading.png" data-src="bj_meituan/minsu.jpg"/>
+										<img class="product-head" src="bj_meituan/minsu-usr.jpg"/>
+									</div>
+									<div class="product-info">
+										<p class="product-title">千佛山&泉城公园旅游达人的家</p>
+										<p class="sub-title"><span>整套2居室·</span><span>可住6人 | </span><span>千佛山公园</span></p>
+										<p class="product-price"><span style="font-size:14px;">￥</span>268</p>
+									</div>
+								</a>
+							</div>
+							<div class="minsu-item">
+								<a href="#" target="_blank">
+									<div class="product-card-header">
+										<img class="product-img" src="images/loading.png" data-src="bj_meituan/minsu.jpg"/>
+										<img class="product-head" src="bj_meituan/minsu-usr.jpg"/>
+									</div>
+									<div class="product-info">
+										<p class="product-title">千佛山&泉城公园旅游达人的家</p>
+										<p class="sub-title"><span>整套2居室·</span><span>可住6人 | </span><span>千佛山公园</span></p>
+										<p class="product-price"><span style="font-size:14px;">￥</span>268</p>
+									</div>
+								</a>
+							</div>
+							<div class="minsu-item">
+								<a href="#" target="_blank">
+									<div class="product-card-header">
+										<img class="product-img" src="images/loading.png" data-src="bj_meituan/minsu.jpg"/>
+										<img class="product-head" src="bj_meituan/minsu-usr.jpg"/>
+									</div>
+									<div class="product-info">
+										<p class="product-title">千佛山&泉城公园旅游达人的家</p>
+										<p class="sub-title"><span>整套2居室·</span><span>可住6人 | </span><span>千佛山公园</span></p>
+										<p class="product-price"><span style="font-size:14px;">￥</span>268</p>
+									</div>
+								</a>
+							</div>
+						</div>
+					</li></ul>
+					</div>
+				</div><!--zhenguo-container-->
+				<div class="recommend-container"><!--猜你喜欢为你甄选最适合的-->
+					<div class="index-nav-container" style="background:linear-gradient(to right, rgb(18, 210, 198) 2%, rgb(14, 190, 212) 97%) rgb(18, 210, 198);">
+							<ul class="clearfix ">
+								<li class="title nav-item">猜你喜欢</li>
+								<li class="nav-item tab-switch">为你甄选最适合的<i style="display:block"></i></li>
+							</ul>
+					</div>
+					<div class="recommend-list">
+						<a class="recommend-item" href="#" target="_blank">
+							<div class="card-container">
+								<div class="recommend-card-wrapper">
+									<div class="img-box"><img src="images/food.jpg"/></div>
+									<div class="info-box">
+										<div class="title" title="鼎鼎轩烤肉自助餐厅（马驹桥店）">鼎鼎轩烤肉自助餐厅（马驹桥店）</div>
+										<div class="score-line">
+											<div class="score">
+												<div class="rate-stars">
+													<ul class="rate-stars-dark">
+														<li><i class="iconfont icon-star_icon"></i><li>
+														<li><i class="iconfont icon-star_icon"></i><li>
+														<li><i class="iconfont icon-star_icon"></i><li>
+														<li><i class="iconfont icon-star_icon"></i><li>
+														<li><i class="iconfont icon-star_icon"></i><li>
+													</ul>
+													<ul class="rate-stars-light" style="width:84%;">
+														<li><i class="iconfont icon-star_icon"></i><li>
+														<li><i class="iconfont icon-star_icon"></i><li>
+														<li><i class="iconfont icon-star_icon"></i><li>
+														<li><i class="iconfont icon-star_icon"></i><li>
+														<li><i class="iconfont icon-star_icon"></i><li>
+													</ul>
+												</div>
+											</div>
+											<div class="comment-number">10832个评价</div>
+										</div>
+										<div class="desc-line"><div class="desc">马驹桥</div></div>
+										<div class="price-line">
+											<div class="price-box">
+												<span style="font-size:14px;font-weight:700;">￥</span>
+												<span style="font-size:22px;letter-spacing:-0.5px;">56.0</span>
+												<span style="font-size:12px;margin-left:4px;font-weight:700;">起</span>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</a>
+						<a class="recommend-item" href="#" target="_blank">
+							<div class="card-container">
+								<div class="recommend-card-wrapper">
+									<div class="img-box"><img src="images/food-1.jpg"/></div>
+									<div class="info-box">
+										<div class="title" title="豫香缘黄焖鸡米饭">豫香缘黄焖鸡米饭</div>
+										<div class="score-line">
+											<div class="score">
+												<div class="rate-stars">
+													<ul class="rate-stars-dark">
+														<li><i class="iconfont icon-star_icon"></i><li>
+														<li><i class="iconfont icon-star_icon"></i><li>
+														<li><i class="iconfont icon-star_icon"></i><li>
+														<li><i class="iconfont icon-star_icon"></i><li>
+														<li><i class="iconfont icon-star_icon"></i><li>
+													</ul>
+													<ul class="rate-stars-light" style="width:92%;">
+														<li><i class="iconfont icon-star_icon"></i><li>
+														<li><i class="iconfont icon-star_icon"></i><li>
+														<li><i class="iconfont icon-star_icon"></i><li>
+														<li><i class="iconfont icon-star_icon"></i><li>
+														<li><i class="iconfont icon-star_icon"></i><li>
+													</ul>
+												</div>
+											</div>
+											<div class="comment-number">5591个评价</div>
+										</div>
+										<div class="desc-line"><div class="desc">学院路</div></div>
+										<div class="price-line">
+											<div class="price-box">
+												<span style="font-size:14px;font-weight:700;">￥</span>
+												<span style="font-size:22px;letter-spacing:-0.5px;">16.9</span>
+												<span style="font-size:12px;margin-left:4px;font-weight:700;">起</span>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</a>
+					</div>
+				</div><!--recommend-container-->
+			</div>
+		</div>
+	</div>
+<!--end main-->
+<!--botton-nav start-->
+	<nav id="botton-nav">
+		<div class="title">美团导航</div>
+		<dl class="b-n-content">
+			<div class="b-n-classification">
+				<dt class="b-n-subtitle">热门城市</dt>
+				<div class="b-n-sublist">
+					<dd class="b-n-list-item"><a href="#" target="_blank" title="重庆">重庆</a></dd>
+					<dd class="b-n-list-item"><a href="#" target="_blank" title="青岛">青岛</a></dd>
+					<dd class="b-n-list-item"><a href="#" target="_blank" title="长春">长春</a></dd>
+					<dd class="b-n-list-item"><a href="#" target="_blank" title="南京">南京</a></dd>
+					<dd class="b-n-list-item"><a href="#" target="_blank" title="无锡">无锡</a></dd>
+					<dd class="b-n-list-item"><a href="#" target="_blank" title="南宁">南宁</a></dd>
+					<dd class="b-n-list-item"><a href="#" target="_blank" title="广州">广州</a></dd>
+					<dd class="b-n-list-item"><a href="#" target="_blank" title="杭州">杭州</a></dd>
+					<dd class="b-n-list-item"><a href="#" target="_blank" title="哈尔滨">哈尔滨</a></dd>
+					<dd class="b-n-list-item"><a href="#" target="_blank" title="昆明">昆明</a></dd>
+					<dd class="b-n-list-item"><a href="#" target="_blank" title="福州">福州</a></dd>
+					<dd class="b-n-list-item"><a href="#" target="_blank" title="西安">西安</a></dd>
+					<dd class="b-n-list-item"><a href="#" target="_blank" title="苏州">苏州</a></dd>
+					<dd class="b-n-list-item"><a href="#" target="_blank" title="东莞">东莞</a></dd>
+					<dd class="b-n-list-item"><a href="#" target="_blank" title="温州">温州</a></dd>
+					<dd class="b-n-list-item"><a href="#" target="_blank" title="天津">天津</a></dd>
+					<dd class="b-n-list-item"><a href="#" target="_blank" title="武汉">武汉</a></dd>
+					<dd class="b-n-list-item"><a href="#" target="_blank" title="济南">济南</a></dd>
+					<dd class="b-n-list-item"><a href="#" target="_blank" title="北京">北京</a></dd>
+					<dd class="b-n-list-item"><a href="#" target="_blank" title="大连">大连</a></dd>
+				</div>
+			</div>
+			<div class="b-n-classification">
+				<dt class="b-n-subtitle">热门分类</dt>
+				<div class="b-n-sublist">
+					<dd class="b-n-list-item"><a href="#" target="_blank" title="酒店">酒店</a></dd>
+					<dd class="b-n-list-item"><a href="#" target="_blank" title="美食">美食</a></dd>
+					<dd class="b-n-list-item"><a href="#" target="_blank" title="休闲娱乐">休闲娱乐</a></dd>
+					<dd class="b-n-list-item"><a href="#" target="_blank" title="运动健身">运动健身</a></dd>
+					<dd class="b-n-list-item"><a href="#" target="_blank" title="生活服务">生活服务</a></dd>
+					<dd class="b-n-list-item"><a href="#" target="_blank" title="上门服务">上门服务</a></dd>
+					<dd class="b-n-list-item"><a href="#" target="_blank" title="购物">购物</a></dd>
+					<dd class="b-n-list-item"><a href="#" target="_blank" title="时尚购">时尚购</a></dd>
+					<dd class="b-n-list-item"><a href="#" target="_blank" title="本地购物">本地购物</a></dd>
+					<dd class="b-n-list-item"><a href="#" target="_blank" title="结婚">结婚</a></dd>
+					<dd class="b-n-list-item"><a href="#" target="_blank" title="摄影写真">摄影写真</a></dd>
+					<dd class="b-n-list-item"><a href="#" target="_blank" title="宴会">宴会</a></dd>
+					<dd class="b-n-list-item"><a href="#" target="_blank" title="丽人">丽人</a></dd>
+					<dd class="b-n-list-item"><a href="#" target="_blank" title="母婴亲子">母婴亲子</a></dd>
+					<dd class="b-n-list-item"><a href="#" target="_blank" title="学习培训">学习培训</a></dd>
+					<dd class="b-n-list-item"><a href="#" target="_blank" title="家装">家装</a></dd>
+					<dd class="b-n-list-item"><a href="#" target="_blank" title="汽车服务">汽车服务</a></dd>
+					<dd class="b-n-list-item"><a href="#" target="_blank" title="医疗">医疗</a></dd>
+					<dd class="b-n-list-item"><a href="#" target="_blank" title="宠物">宠物</a></dd>
+				</div>
+			</div>
+			<div class="b-n-classification">
+				<dt class="b-n-subtitle">周边城市</dt>
+				<div class="b-n-sublist">
+					<dd class="b-n-list-item"><a href="#" target="_blank" title="大厂回族自治县酒店">大厂回族自治县酒店</a></dd>
+					<dd class="b-n-list-item"><a href="#" target="_blank" title="三河美食">三河美食</a></dd>
+					<dd class="b-n-list-item"><a href="#" target="_blank" title="廊坊休闲娱乐">廊坊休闲娱乐</a></dd>
+					<dd class="b-n-list-item"><a href="#" target="_blank" title="三河运动健身">三河运动健身</a></dd>
+					<dd class="b-n-list-item"><a href="#" target="_blank" title="大厂回族自治县生活服务">大厂回族自治县生活服务</a></dd>
+					<dd class="b-n-list-item"><a href="#" target="_blank" title="廊坊上门服务">廊坊上门服务</a></dd>
+					<dd class="b-n-list-item"><a href="#" target="_blank" title="廊坊购物">廊坊购物</a></dd>
+					<dd class="b-n-list-item"><a href="#" target="_blank" title="廊坊时尚购">廊坊时尚购</a></dd>
+					<dd class="b-n-list-item"><a href="#" target="_blank" title="三河本地购物">三河本地购物</a></dd>
+					<dd class="b-n-list-item"><a href="#" target="_blank" title="大厂回族自治县结婚">大厂回族自治县结婚</a></dd>
+					<dd class="b-n-list-item"><a href="#" target="_blank" title="三河摄影写真">三河摄影写真</a></dd>
+					<dd class="b-n-list-item"><a href="#" target="_blank" title="廊坊宴会">廊坊宴会</a></dd>
+					<dd class="b-n-list-item"><a href="#" target="_blank" title="大厂回族自治县丽人">大厂回族自治县丽人</a></dd>
+					<dd class="b-n-list-item"><a href="#" target="_blank" title="廊坊母婴亲子">廊坊母婴亲子</a></dd>
+					<dd class="b-n-list-item"><a href="#" target="_blank" title="三河学习培训">三河学习培训</a></dd>
+					<dd class="b-n-list-item"><a href="#" target="_blank" title="大厂回族自治县家装">大厂回族自治县家装</a></dd>
+					<dd class="b-n-list-item"><a href="#" target="_blank" title="大厂回族自治县汽车服务">大厂回族自治县汽车服务</a></dd>
+					<dd class="b-n-list-item"><a href="#" target="_blank" title="廊坊医疗">廊坊医疗</a></dd>
+					<dd class="b-n-list-item"><a href="#" target="_blank" title="三河宠物">三河宠物</a></dd>
+				</div>
+			</div>
+		</dl>
+	</nav>
+<!--end botton-nav-->
+<style type="text/css">
+  #footer{background:#f8f8f8;margin-top:40px;}
+  #footer .footer-content{width:1190px;margin:0 auto;color:#333;font-size:12px;line-height:2;box-sizing:border-box;text-align:left;}
+  #footer .footer-content .footer-link{padding:40px 45px;border-top:1px solid #e5e5e5;border-bottom:1px solid #e5e5e5;overflow:hidden;}
+  #footer .footer-content .footer-link .footer-column{width:20%;float:left;}
+  #footer .footer-content .footer-link .footer-column dl{padding-bottom:20px;color:#666;}
+  #footer .footer-content .footer-link .footer-column dl dt{font-size:14px;font-weight:500;}
+  #footer .footer-content .footer-link .footer-column dl a{color:#666;}
+  #footer .footer-content .footer-link .footer-column dl a:hover{color:#31BBAC;}
+
+  #footer .footer-content .footer-copyright{color:#999;padding-left:20px;padding-top:15px;padding-bottom:30px;line-height:1.6;}
+  #footer .footer-content .footer-copyright a{color:#999}
+  #footer .footer-content .footer-copyright a:hover{color:#31BBAC}
+  #footer .footer-content .footer-copyright .footer-copyright-left{float:left;}
+  #footer .footer-content .footer-copyright .footer-copyright-right{float:right;text-align:right;}
+  #footer .footer-content .footer-copyright .footer-copyright-right .footer-copyright-cert{text-align:left;padding-top:6px;}
+  #footer .footer-content .footer-copyright .footer-copyright-right .footer-copyright-cert .record{display:inline-block;overflow:hidden;text-indent:-1000px;height:38px;background-image:url("images/footer.png");background-repeat:no-repeat;margin-right:2px;width:109px;background-position:0 -167px;}
+  #footer .footer-content .footer-copyright .footer-copyright-right .footer-copyright-cert .knet{display:inline-block;overflow:hidden;text-indent:-1000px;height:38px;background-image:url("images/footer.png");background-repeat:no-repeat;margin-right:2px;width:107px;background-position:0 -127px;}
+  #footer .footer-content .footer-copyright .footer-copyright-right .footer-copyright-cert .mt12315{display:inline-block;overflow:hidden;text-indent:-1000px;height:38px;background-image:url("images/footer.png");background-repeat:no-repeat;margin-right:2px;width:107px;background-position:0 -40px;}
+</style>
+	<div id="footer">
+		<div class="footer-content">
+			<div class="footer-link">
+				<div class="footer-column">
+					<dl>
+						<dt>用户帮助</dt>
+						<dd><a href="#" target="_blank">美团承诺</a></dd>
+						<dd><a href="#" target="_blank">购物保障</a></dd>
+						<dd><a href="#" target="_blank">申请退款</a></dd>
+						<dd><a href="#" target="_blank">查看美团券密码</a></dd>
+						<dd><a href="#" target="_blank">常见问题</a></dd>
+						<dd><a href="#" target="_blank">用户协议</a></dd>
+						<dd><a href="#" target="_blank">隐私政策</a></dd>
+						<dd><a href="#" target="_blank">反诈骗公告</a></dd>
+					</dl>
+					<dl>
+						<dt>美团服务</dt>
+						<dd><a href="#" target="_blank">美团外卖</a></dd>
+						<dd><a href="#" target="_blank">美团酒店</a></dd>
+						<dd><a href="#" target="_blank">猫眼电影</a></dd>
+						<dd><a href="#" target="_blank">美团云</a></dd>
+						<dd><a href="#" target="_blank">大众点评</a></dd>
+						<dd><a href="#" target="_blank">榛果民宿</a></dd>
+					</dl>
+				</div>
+				<div class="footer-column">
+					<dl>
+						<dt>商家合作</dt>
+						<dd><a href="#" target="_blank">美食商家入驻(非外卖)</a></dd>
+						<dd><a href="#" target="_blank">美团外卖开店申请</a></dd>
+						<dd><a href="#" target="_blank">酒店商家入驻</a></dd>
+						<dd><a href="#" target="_blank">境内度假商家入驻</a></dd>
+						<dd><a href="#" target="_blank">综合商家入驻</a></dd>
+						<dd><a href="#" target="_blank">榛果民宿房东商家入驻</a></dd>
+						<dd><a href="#" target="_blank">商家开票申请</a></dd>
+						<dd><a href="#" target="_blank">美团点评智能收银机</a></dd>
+						<dd><a href="#" target="_blank">聚宝盆餐饮开放平台</a></dd>
+						<dd><a href="#" target="_blank">美团智能支付</a></dd>
+						<dd><a href="#" target="_blank">美团排队</a></dd>
+					</dl>
+				</div>
+				<div class="footer-column">
+					<dl>
+						<dt>代理商加盟</dt>
+						<dd><a href="#" target="_blank">智能支付渠道加盟商招募</a></dd>
+						<dd><a href="#" target="_blank">到店餐饮代理商招募</a></dd>
+						<dd><a href="#" target="_blank">非餐饮代理商招募</a></dd>
+						<dd><a href="#" target="_blank">美团联盟</a></dd>
+						<dd><a href="#" target="_blank">美团收银招募线上分销商</a></dd>
+						<dd><a href="#" target="_blank">美团点评5S服务商招募</a></dd>
+					</dl>
+					<dl>
+						<dt>行业规范</dt>
+						<dd><a href="#" target="_blank">美团点评餐饮安全管理办法</a></dd>
+					</dl>
+					<dl>
+						<dt>廉政举报</dt>
+						<dd><a href="#" target="_blank">廉政邮箱</a></dd>
+					</dl>
+				</div>
+				<div class="footer-column">
+					<dl>
+						<dt>关注美团</dt>
+						<dd><a href="#" target="_blank">美团新浪微博</a></dd>
+					</dl>
+					<dl>
+						<dt>关于美团</dt>
+						<dd><a href="#" target="_blank">媒体报道</a></dd>
+					</dl>
+					<dl>
+						<dt>公司信息</dt>
+						<dd><a href="#" target="_blank">加入我们</a></dd>
+						<dd><a href="#" target="_blank">法律声明</a></dd>
+						<dd><a href="#" target="_blank">商户服务协议</a></dd>
+						<dd><a href="#" target="_blank">商户诚信公约及管理办法</a></dd>
+					</dl>
+				</div>
+				<div class="footer-column">
+					<dl>
+						<dt>消费者服务热线</dt>
+						<dd>外卖消费者：<a href="#" target="_blank"> 10109777</a></dd>
+						<dd>猫眼消费者：<a href="#" target="_blank"> 10105335</a></dd>
+						<dd>其他消费者：<a href="#" target="_blank"> 10107888</a></dd>
+					</dl>
+					<dl>
+						<dt>商家服务热线</dt>
+						<dd>外卖&餐饮商家：<a href="#" target="_blank"> 10105557</a></dd>
+						<dd>休闲娱乐、丽人、ktv、教育、结婚、亲子、家装等商家： <a href="#" target="_blank">10100107</a></dd>
+					</dl>
+					<dl>
+						<dt>投诉举报热线</dt>
+						<dd>违法和不良信息举报电话：<a href="#" target="_blank"> 4006018900</a></dd>
+						<dd>举报邮箱：<a href="#" target="_blank"> tousujubao@meituan.com</a></dd>
+					</dl>
+				</div>
+				<!--
+				<div style="clear:both;"></div>
+				-->
+			</div>
+			<div class="footer-copyright">
+				<div class="footer-copyright-left">
+					<p>©美团网团购 meituan.com 
+						<a href="#" target="_blank">京ICP证070791号</a>
+						<a href="#" target="_blank">京ICP备10211739号</a>
+						<a href="#" target="_blank">电子公告服务规则</a>
+					</p>
+					<p>
+						<a href="#" target="_blank">广播电视节目制作经营许可证（京）字第03889号</a>
+					</p>
+				</div>
+				<div class="footer-copyright-right">
+					<a href="#" target="_blank">京公网安备11010502025545号</a>
+					<div class="footer-copyright-cert">
+						<a class="record" href="#" target="_blank" title="备案信息"></a>
+						<a class="knet" href="#" target="_blank" title="可信网站认证"></a>
+						<a class="mt12315" href="#" target="_blank" title="12315消费争议"></a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+  </body> 
+
+  <script src="js/jquery-1.8.3.min.js"></script>
+  <script src="http://underscorejs.org/underscore.js"></script>
+ <!--图片懒加载 demo2--> 
+  <script type="text/javascript">
+	//先引入jQuery和underscore
+		//获取Window的引用
+  		var $window = $(window);
+  		//获取包含data-src的属性的img,并以jQuery对象存入数组:
+  		var lazyImgs=_.map($('img[data-src]').get(),function(i){
+  			return $(i);
+  		});
+  		//定义事件函数
+  		var onscroll = function(){
+  			//获取页面滚动的高度:
+  			var wtop = $window.scrollTop();
+  			if (lazyImgs.length>0) {
+  				//获取可视区的高度:
+  				var wheight = $window.height();
+  				//存放待删除的索引:
+  				var loadedIndex = [];
+  				//循环处理数组的每个img元素:
+  				_.each(lazyImgs, function($i,index){
+  					//判断是否在可视范围内:
+  					if ($i.offset().top - wtop < wheight) {
+  						//设置src属性
+  						$i.attr('src',$i.attr('data-src'));
+  						//添加到待删除数组:
+  						loadedIndex.unshift(index);
+  					}
+  				});
+  				//删除已处理的对象:
+  				_.each(loadedIndex, function(index){
+  					lazyImgs.splice(index, 1);
+  				});
+  			}
+  		};
+  		//绑定事件:
+  		$window.scroll(onscroll);
+  		//手动触发一次:
+  		onscroll();
+
+  </script>
+
+ <!--图片懒加载 demo1
+  <script>
+
+   	 var num = document.getElementsByTagName('img').length;
+   	 var img = document.getElementsByTagName("img");
+   	 var n = 0; //存储图片加载到的位置，避免每次都从第一张图片开始遍历
+   	 lazyload(); //页面载入完毕加载可是区域内的图片
+   	 window.onscroll = lazyload;
+   	 function lazyload() { //监听页面滚动事件
+       	 var seeHeight = document.documentElement.clientHeight; //可见区域高度
+       	 var scrollTop = document.documentElement.scrollTop || document.body.scrollTop; //滚动条距离顶部高度
+      	  for (var i = n; i < num; i++) {
+            	if (img[i].offsetTop < seeHeight + scrollTop) {
+              	  if (img[i].getAttribute("src") == "default.jpg") {
+               	     img[i].src = img[i].getAttribute("data-src");
+               	 }
+             	   n = i + 1;
+          	  }
+       	 }
+   	 }
+   	 // 简单的节流函数
+	//fun 要执行的函数
+	//delay 延迟
+	//time  在time时间内必须执行一次
+	function throttle(fun, delay, time) {
+   		var timeout,
+    	    startTime = new Date();
+   	 return function() {
+    	    var context = this,
+        	    args = arguments,
+            	curTime = new Date();
+ 	       clearTimeout(timeout);
+    	    // 如果达到了规定的触发时间间隔，触发 handler
+        	if (curTime - startTime >= time) {
+            	fun.apply(context, args);
+            	startTime = curTime;
+            	// 没达到触发间隔，重新设定定时器
+        	} else {
+        	    timeout = setTimeout(fun, delay);
+       	 	}
+    	};
+	};
+// 实际想绑定在 scroll 事件上的 handler
+function lazyload(event) {}
+// 采用了节流函数
+window.addEventListener('scroll',throttle(lazyload,500,1000));
+	</script>
+-->
+<!--
+  <script>
+  $(function(){
+	$(".tab-switch").mouseover(function(){
+		$(this).addClass('first').siblings().removeClass('first');
+		var index = $(this).index();
+		number = index;
+		$('.quality-area li').hide();
+		/*
+		$('.quality-area li:eq('+index+')').show();
+		*/
+		$('.quality-area li').eq(index).show()
+
+	});
+});
+  </script>
+-->
+
+<!--有格调 start quality-container-->
+  <script>
+  $(document).ready(function(){
+
+ // 改为鼠标移上的事件只需把click改为mousemove
+
+ $(".quality-container .tab-switch").mousemove(function(){
+ 	var number=$(".quality-container .tab-switch").index(this);
+ 	//$(this).addClass("checked");
+	//$(this).siblings().removeClass("checked");
+	$(".quality-container .tab-switch").find("i").hide();
+	$(this).find("i").show();
+	$(".quality-area li:eq("+number+")").show();
+	$(".quality-area li:eq("+number+")").siblings().hide();
+ });
+});
+  </script>
+  <!--end 有格调-->
+
+  <!--狠优惠 start offer-container-->
+  <script>
+  $(document).ready(function(){
+ $(".offer-container .tab-switch").mousemove(function(){
+ 	var number=$(".offer-container .tab-switch").index(this);
+	$(".offer-container .tab-switch").find("i").hide();
+	$(this).find("i").show();
+
+	$(".cheap-area li:eq("+number+")").show();
+
+	$(".cheap-area li:eq("+number+")").siblings().hide();
+ });
+});
+  </script>
+  <!--end 狠优惠-->
+
+  <!--猫眼电影 start maoyan-container-->
+  <script>
+  $(document).ready(function(){
+ $(".maoyan-container .tab-switch").mousemove(function(){
+ 	var number=$(".maoyan-container .tab-switch").index(this);
+	$(".maoyan-container .tab-switch").find("i").hide();
+	$(this).find("i").show();
+	
+	$(".scenes-body li:eq("+number+")").show();
+
+	$(".scenes-body li:eq("+number+")").siblings().hide();
+ });
+});
+  </script>
+  <!--end 猫眼电影-->
+
+  <!--推荐民宿 start zhenguo-container-->
+  <script>
+  $(document).ready(function(){
+ $(".zhenguo-container .tab-switch").mousemove(function(){
+ 	var number=$(".zhenguo-container .tab-switch").index(this);
+	$(".zhenguo-container .tab-switch").find("i").hide();
+	$(this).find("i").show();
+	
+	$(".minsu-area li:eq("+number+")").show();
+
+	$(".minsu-area li:eq("+number+")").siblings().hide();
+ });
+});
+  </script>
+  <!--end 推荐民宿-->
+  <script>
+/*banner-slider*/
+ $(document).ready(function(){
+ window.onload=function(){
+ var imgs =["images/banner-slider-1.jpg","images/banner-slider-2.jpg","images/banner-slider-3.jpg","images/banner-slider-4.jpg","images/banner-slider-5.jpg","images/banner-slider-6.jpg"];    //（设定想要显示的图片）
+ var i = 1;
+ var demo=document.getElementById("banner-demo");//获取DIV对象
+ demo.style.backgroundImage="url(images/banner-slider-1.jpg)";   //设置图片的初始图片为该路径的图片
+		function time(){
+			i++;   
+			i=i%6;         // 超过2则取余数，保证循环在0、1、2之间
+			demo.style.backgroundImage="url("+imgs[i]+")"; 
+		}
+		setInterval(time,2000);//循环调用time1()函数，时间间隔为2000ms
+		//setInterval()函数，按照指定的周期（按毫秒计）来调用函数或表达式
+ }
+});
+/*banner-slider*/
+</script>
+</script>
+
+  <script>
+/*顶部输入框 */
+ $(document).ready(function(){
+	$('.search-text').focus(function(){
+		$('.h-m-suggest').css("display","block");
+	});
+	$('.search-text').blur(function(){
+		$('.h-m-suggest').css("display","none");
+	});
+ });
+/*顶部输入框 */
+/*导航 二级菜单*/
+ $(document).ready(function(){
+	 /*美食 food*/
+	$('.nav-food').mouseover(function(){
+		$('.food-detail').css("display","block");
+		$('.category-detail-warpper').css("display","block");
+	});
+	$('.nav-food').mouseout(function(){
+		$('.food-detail').css("display","none");
+		$('.category-detail-warpper').css("display","none");
+	});
+	/*外卖 waimai*/
+	$('.nav-waimai').mouseover(function(){
+		$('.waimai-detail').css("display","block");
+		$('.category-detail-warpper').css("display","block");
+	});
+	$('.nav-waimai').mouseout(function(){
+		$('.waimai-detail').css("display","none");
+		$('.category-detail-warpper').css("display","none");
+	});
+	/*酒店 hotel*/
+		$('.nav-hotel').mouseover(function(){
+		$('.hotel-detail').css("display","block");
+		$('.category-detail-warpper').css("display","block");
+	});
+	$('.nav-hotel').mouseout(function(){
+		$('.hotel-detail').css("display","none");
+		$('.category-detail-warpper').css("display","none");
+	});
+	/*榛果民宿 zhenguo*/
+		$('.nav-zhenguo').mouseover(function(){
+		$('.zhenguo-detail').css("display","block");
+		$('.category-detail-warpper').css("display","block");
+	});
+	$('.nav-zhenguo').mouseout(function(){
+		$('.zhenguo-detail').css("display","none");
+		$('.category-detail-warpper').css("display","none");
+	});
+	/*猫眼电影 maoyan*/
+		$('.nav-maoyan').mouseover(function(){
+		$('.maoyan-detail').css("display","block");
+		$('.category-detail-warpper').css("display","block");
+	});
+	$('.nav-maoyan').mouseout(function(){
+		$('.maoyan-detail').css("display","none");
+		$('.category-detail-warpper').css("display","none");
+	});
+	/*机票 / 火车票 plane*/
+		$('.nav-plane').mouseover(function(){
+		$('.plane-detail').css("display","block");
+		$('.category-detail-warpper').css("display","block");
+	});
+	$('.nav-plane').mouseout(function(){
+		$('.plane-detail').css("display","none");
+		$('.category-detail-warpper').css("display","none");
+	});
+	/*休闲娱乐 / KTV ktv*/
+		$('.nav-ktv').mouseover(function(){
+		$('.ktv-detail').css("display","block");
+		$('.category-detail-warpper').css("display","block");
+	});
+	$('.nav-ktv').mouseout(function(){
+		$('.ktv-detail').css("display","none");
+		$('.category-detail-warpper').css("display","none");
+	});
+	/*生活服务 life*/
+		$('.nav-life').mouseover(function(){
+		$('.life-detail').css("display","block");
+		$('.category-detail-warpper').css("display","block");
+	});
+	$('.nav-life').mouseout(function(){
+		$('.life-detail').css("display","none");
+		$('.category-detail-warpper').css("display","none");
+	});
+	/*丽人 / 美发 / 医学美容 beauty*/
+		$('.nav-beauty').mouseover(function(){
+		$('.beauty-detail').css("display","block");
+		$('.category-detail-warpper').css("display","block");
+	});
+	$('.nav-beauty').mouseout(function(){
+		$('.beauty-detail').css("display","none");
+		$('.category-detail-warpper').css("display","none");
+	});
+	/*结婚 / 婚纱摄影 / 婚宴 married*/
+		$('.nav-married').mouseover(function(){
+		$('.married-detail').css("display","block");
+		$('.category-detail-warpper').css("display","block");
+	});
+	$('.nav-married').mouseout(function(){
+		$('.married-detail').css("display","none");
+		$('.category-detail-warpper').css("display","none");
+	});
+	/*亲子 / 儿童乐园 / 幼教 child*/
+		$('.nav-child').mouseover(function(){
+		$('.child-detail').css("display","block");
+		$('.category-detail-warpper').css("display","block");
+	});
+	$('.nav-child').mouseout(function(){
+		$('.child-detail').css("display","none");
+		$('.category-detail-warpper').css("display","none");
+	});
+	/*运动健身 / 健身中心 sprot*/
+		$('.nav-sprot').mouseover(function(){
+		$('.sprot-detail').css("display","block");
+		$('.category-detail-warpper').css("display","block");
+	});
+	$('.nav-sprot').mouseout(function(){
+		$('.sprot-detail').css("display","none");
+		$('.category-detail-warpper').css("display","none");
+	});
+	/*家装 / 建材 / 家居 decorate*/
+		$('.nav-decorate').mouseover(function(){
+		$('.decorate-detail').css("display","block");
+		$('.category-detail-warpper').css("display","block");
+	});
+	$('.nav-decorate').mouseout(function(){
+		$('.decorate-detail').css("display","none");
+		$('.category-detail-warpper').css("display","none");
+	});
+	/*学习培训 / 音乐培训 education*/
+		$('.nav-education').mouseover(function(){
+		$('.education-detail').css("display","block");
+		$('.category-detail-warpper').css("display","block");
+	});
+	$('.nav-education').mouseout(function(){
+		$('.education-detail').css("display","none");
+		$('.category-detail-warpper').css("display","none");
+	});
+	/*医疗健康 / 宠物 / 爱车 medical*/
+		$('.nav-medical').mouseover(function(){
+		$('.medical-detail').css("display","block");
+		$('.category-detail-warpper').css("display","block");
+	});
+	$('.nav-medical').mouseout(function(){
+		$('.medical-detail').css("display","none");
+		$('.category-detail-warpper').css("display","none");
+	});
+	/*酒吧 / 密室逃脱 bar*/
+		$('.nav-bar').mouseover(function(){
+		$('.bar-detail').css("display","block");
+		$('.category-detail-warpper').css("display","block");
+	});
+	$('.nav-bar').mouseout(function(){
+		$('.bar-detail').css("display","none");
+		$('.category-detail-warpper').css("display","none");
+	});
+ });
+/*导航 二级菜单*/
+  </script>
+  </html>
